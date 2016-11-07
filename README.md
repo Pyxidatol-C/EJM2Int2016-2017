@@ -1,6 +1,6 @@
 # EJM2Int2016-2017
 ## Link
-[>Here<](#)
+[>Here<](http://JingjieYang.github.io)
 ## What is this?
 
 I like to keep an eletronic version of my class notes, along with the files the teachers have distributed.  
