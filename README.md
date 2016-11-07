@@ -1,6 +1,6 @@
 # EJM2Int2016-2017
 ## Link
-[>Here<](http://JingjieYang.github.io)
+[>https://jingjieyang.github.io/EJM2Int2016-2017/<](https://jingjieyang.github.io/EJM2Int2016-2017/)
 ## What is this?
 
 I like to keep an eletronic version of my class notes, along with the files the teachers have distributed.  
@@ -16,4 +16,4 @@ and you'll be able to navigate through the files easily.
 
 - Feel free to contribute if you have some knowledge with `html`, `markdown`, `javascript`, `git`, etc.
 - Really, learn `github`, it's more convenient than google drive.
-- Sites marked with `(down)` are literally *down*. 
+- Links with `(down)` are literally *down*; links with `(to be updated)` are obsolete. 
