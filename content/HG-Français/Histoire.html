@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>Histoire </title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<p><code>2016/09/19</code></p>
+
+<h1 id="toc_0">Histoire</h1>
+
+<h2 id="toc_1">I. Les Européens dans le peuplement de la terre.</h2>
+
+<h3 id="toc_2">Intro:</h3>
+
+<p>L&#39;Europe est un continent difficile à cerner car il appraît aujourd&#39;hui comme un espace situé à l&#39;ouest d&#39;un continent beaucoup plus baste appelé <strong>l&#39;Eurasie</strong>. On parle d&#39;Eurasie depuis la fin du <strong>XX ème</strong> siècle. L&#39;Europe existe historiquement, et elle rassemble aujourd&#39;hui environ <strong>700 millions</strong> d&#39;habitants dont <strong>500 millions</strong> sont dans l&#39;Union Européenne. Historiquement, l&#39;Europe a rassemblé des peuples depuis l&#39;Antiquité qui ont une <strong>culture commune</strong>, une <strong>histoire commune</strong> faite de <strong>conflits</strong> et <strong>d&#39;alliance</strong> mais également un système de <strong>parenté</strong> et système <strong>juridique</strong> commun. Un des points commun de l&#39;Europe est la <strong>toute puissance donné à l&#39;individu</strong> qui est une notion construite par l&#39;histoire.</p>
+
+<h3 id="toc_3">A) Quelles évolution de la population européenne depuis l&#39;Antiquité?</h3>
+
+<blockquote>
+<p>m = <strong>mille</strong><br>
+m avec une barre dessus = <strong>million</strong><br>
+m avec deux barres dessus = <strong>milliard</strong>. </p>
+</blockquote>
+
+<p>Comme le montre, <strong>le doc. 1 page 13</strong>, on remarque plusieurs périodes dans l&#39;histoire de population. En <strong>l&#39;An I</strong>, on compte <strong>250 millions</strong>. En <strong>l&#39;An 500</strong>, environ <strong>257 millions</strong>. <strong>En 1300, 429 millions</strong> et <strong>en 1400, 374 millions</strong>.</p>
+
+<div><pre><code class="language-none">1 :   250 millions
+500 : 257 millions
+1300: 429 millions
+1400: 374 millions</code></pre></div>
+
+<p>C&#39;est véritablement au <strong>XVIII ème</strong> siècle que la population a augmenté. Cela s&#39;explique par de changement dans les <strong>pratiques argicoles</strong> avec du <strong>labourage en profondeur</strong>. Sur tout <strong>les guerres s&#39;éloignent</strong> et sont plus limitées dans l&#39;espace et dans le temps. Donc les paysants produissent plus, les populations résistent mieux face aux épidémies qui s&#39;éloigne. Alors <strong>l&#39;espérance de vie</strong> augmente.</p>
+
+<h4 id="toc_4">La transition  démographique</h4>
+
+<p>Toute population évolue par &quot;phase successives&quot;. Il y a une logique d&#39;évolution liée à des moments historiques précis. Ainsi on peut lire l&#39;évolution de la population européenne en 3 moments distincts:</p>
+
+<ul>
+<li><p>La phase pré-transitionelle: Elle démare sous l&#39;Antiquité et c&#39;est en jusqu&#39;au XVIIe sciècle. Le taux de mortalité (le nombre de dévès par an pour mille habitant) est à peine inférieur au taux de natalité. La croissance de la population est donc très faible. Ceci s&#39;explique par les guerres et les épidémies qui ravage l&#39;Occident. Il s&#39;agit plus d&#39;une lutte pour sauver l&#39;espèce humaine.</p></li>
+<li><p>Transition démographique: Elle se divise en 2 moments:</p>
+
+<ul>
+<li>Le premier est au XVIII et 1er moitié du XIXe siècle. Les familles ont toujours un taux de natalité élevé, avec 15, 16 enfants. Cependant, beaucoup plus d&#39;enfant arrive à l&#39;âge adulte, et peuvent créer une famille. La mortalité baisse car les récoltes sont plus régulères, les guerres s&#39;éloignent, et les épidémies reculent. Alors on assiste à une explosion démographique, c&#39;est-à-dire une augmentation rapide de la population.</li>
+<li>2ème phase: Le phénomène que l&#39;on connait s&#39;accentue. La mortalité continue de baisser grâce à une meilleur hygiène, une nourriture plus diversifié et les progrès de la médecine. La natalité commence aussi à décroître et le nombre d&#39;enfant par famille sur tout dans le milieu rural, tourne autour de 8, 9. L&#39;explosion démographique se poursuit tout au long du XIXe siècle.</li>
+</ul></li>
+<li><p>Post-transitionelle: est ce met en place au milieu de 1960. Le taux de mortalité est très bas, car les enfants naissent dans de bon consition, et sont suivis par les médecins. C&#39;est la natalité qui change car la situation des femmes à évouée: elles font des études et travaillent. C&#39;est l&#39;émancipation des femmes.</p></li>
+</ul>
+
+<h3 id="toc_5">B) Les migrations de population</h3>
+
+<blockquote>
+<p>migrer: bouger/changer de pays.<br>
+émigrer: quitter un pays.<br>
+immigrer: venir dans un pays.  </p>
+</blockquote>
+
+<p>L&#39;Europe a connu <strong>deux</strong> moments qui ont changé la structure de la population.</p>
+
+<p><strong>1. Le commerce trangulaire:</strong> Il se met en place au <strong>XV ème</strong>, et stoppe en <strong>1848</strong>. C&#39;est un commerce qui se fait en trois temps. Les <strong>armateurs</strong> partent de l&#39;Europe: de <strong>Nante, Bordeaux, Lisbonne, Londre, Amsterdam</strong>. Ils partent en Afrique, le bateau est rempli de tissus, des armes, d&#39;alcool (<strong>des pacotills, objet pas de valeur</strong>), à Gorée. Ils troc (échanger) les pacotills contre les esclaves. Le bateau va ver l&#39;Amérique, chargé d&#39;esclave. Les esclaves sont vendu pour travailler, surtout dans les plantations. Avec l&#39;argent gagné, le bateau revient vers l&#39;Europe, avec produits <strong>exotiques</strong> (du tabac, sucre, café), qui sont vendu très cher. ce commerce permet aux ports de s&#39;enrichir, surtout avec la consommation des produits exotiques. En 1848, le commerce des esclaves est interdi par V. Schoelcher. Après la révolution industrielle, l&#39;esclavage n&#39;est plus utile.</p>
+
+<p>Entre <strong>1847</strong> et <strong>1910</strong>, <strong>60 millions</strong> d&#39;Européens ont participé au migration transatlantique. Ceci a été rendu possible grâce à la <strong>révolution des transports</strong>. Des bateaux de plus en plus volumineux transportent des centaines d&#39;émigrants vers <strong>&quot;le nouveau monde&quot;</strong>. Cela débute en <strong>1847</strong> avec les <strong>Irelandais</strong> puis les <strong>Norvégiens</strong>, les <strong>Russes</strong>, les <strong>Polonais</strong> et les <strong>Allemands</strong> jusqu&#39;en <strong>1890</strong>. En suite, ce sont les populations les plus pauvres d&#39;Europe central (<strong>Roumanie</strong>, <strong>Hongrie</strong>) qui émigre, ainsi que les <strong>Italiens</strong> et le <strong>Grecs</strong>. Mais les Etats Unis donne moins de visa, et il faut donc aller vers <strong>l&#39;Amérique latine</strong> en particulier <strong>le Brésil</strong>, <strong>l&#39;Argnetine</strong> et <strong>le Chili</strong>. Les migrations sont toujours <strong>collectives</strong> et mobilisent <strong>tout l&#39;argent disponible</strong>. On quitte un monde de pauvreté pour espérer trouver de nouvelles terres agricoles, et améliorer sa condition. On peut aussi quitter l&#39;Europe pour des <strong>persécutions politiques (Juïfs, Arméniens)</strong>. Ainsi l&#39;Europe a pu se soulager d&#39;environ <strong>1/3 de sa population</strong> et avoir une <strong>influence mondiale</strong>.</p>
+
+<p><code>2016/10/17</code></p>
+
+<h1 id="toc_6">L&#39;invention de la citoyenneté dans le monde Antique</h1>
+
+<p>La civilisation occidentale doit énormément à la grèce antique surtout dans quatre domaines:</p>
+
+<ul>
+<li>La politique, et surtout la démocratie</li>
+<li>La philosophie avec de grands peneurs (Platon, Socrate, Aristote)</li>
+<li>La science qui pour les Grecs forme un tout</li>
+<li>L&#39;histoire (Homère: elle se défini omme étant le souvenir des faits passés. pour empêcher que les hommes recommence les mêmes erreurs) l&#39;histoire et donc une enquête.</li>
+</ul>
+
+<h2 id="toc_7">A) Athènes au Ve siècle avant J.C.</h2>
+
+<p>Plusieurs régimes politiques ont précédé la démocratie au VIe sciècle, la tyranie, le tyran est arrivé au pouvoir par la force, et domine par la cruauté. C&#39;est une période confuse avec beaucoup de violence. L&#39;oligarchie c&#39;est le pouvoir entre les mains des chefs militaires, qui ont du mal à gouverner ensemble. Cela peut déboucher aussi sur la violance. La démocratie (le pouvoir du peuple) est un régime politique où le pouvoir est accessible à tout les citoyens. En -507, un homme politique, appellé Clisthène, explique le système démocratique qui est limité à la seule région de l&#39;Attique.</p>
+
+<h3 id="toc_8">1) Le fonctionnement de la démocratie</h3>
+
+<p>dans l&#39;Attique, il y a environ 400m habitant, mais seul 40m d&#39;entre eux sont citoyens. Le citoyen est un homme, de plus de 21 ans, né d&#39;un père et d&#39;un mère athènienne. Sa fortune n&#39;a aucune importance. Il n&#39;y a que lui qui soit acteur de la démocratie. On est donc citoyen par hérédité. Environ 1 fois par moisn les citoyens se réunissent à Athènes et forme ce qu&#39;on appelle l&#39;Ecclésia. C&#39;est une assemble de citoyens sur une colline appellé Pnyx.</p>
+
+
+
+
+</body>
+
+</html>

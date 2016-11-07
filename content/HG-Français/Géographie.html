@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>Géographie</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Géographie</h1>
+
+<p>Du développement au développement durable</p>
+
+<h2 id="toc_1">Introduction</h2>
+
+<p>L’augmentation du nombre d’homme sur la planète entraîne une croissance de l’occupation de l’espace. Aujourd’hui, on ne peut plus continuer de se développer de la même façon qu’au XIXème siècle, c’est à dure en utilisant sans limite toute les ressources énergétiques.Il faut donc passer au développement non contrôlé au développement durable.</p>
+
+<h2 id="toc_2">A) Un monde inégalement développé</h2>
+
+<p>Au XXème siècle, la population mondiale a connu une augmentation sans précédent. En 1900, il y avait 1,6 milliards d’habitants sur la planète. En 2016, la population est passé à 7,3 milliards. On estime quand 2050, il y aura 9 milliards d’habitants sur la planète. Cette croissance de la population ne se fait pas au même rythme partout, et cela créer des inégalités entre les états. </p>
+
+<p>On identifie de puis les années 1970, le niveau de développement des états à partir de leur taux de croissance. Les pays du nord sont les pays industrialisés dont l’histoire de l’industrie commence au XIXème siècle. La notion de « pays du sud » est beaucoup plus récente, elle caractérise des pays qui souvent ont été colonisés et dont le développement économique est très récent.</p>
+
+<p>Depuis 1990, on mesure le développement avec I.D.H</p>
+
+<h6 id="toc_3">On appelle développement la multiplication des richesses qui permet à une population sur un territoire donné, d’améliorer ses conditions de vie. (Notion globale, il faut que tout le monde profite, voir p.12)</h6>
+
+<p>Jusqu&#39;en 1990, cette question du développement a été repensé et aujourd&#39;hui on ne le parle plus des pays sous-développé. On divise le monde en 2 catégories (pays industriel développé (PID) et pays en développement (PED)). Les critèrers de mesure est appelé: I.D.H (Indicateur de Développement Humain). C&#39;est une composante dans laquelle on trouve plusieurs aspects:</p>
+
+<ul>
+<li><p><strong>Le PIB (Produit Intérieur Brute)</strong>: c&#39;est à dire l&#39;ensemble des richesses produite sur le sol d&#39;un état rapporté au nombre d&#39;habitant.  </p></li>
+<li><p><strong>L&#39;espérence de vie du pays</strong>: Elle dépend de l&#39;alimentation. Il s&#39;agit de savoir si une population manque de nourriture (famine, manque de nourriture); ou être vivtime de malnutrition (nourriture non-divertifié). Pour se soigner, il faut des médecins et des hopitaux. A l&#39;heure actuelle, il existe une écart entre <strong>le Japon</strong> avec l&#39;espérance de vie plus élevé (84) et l&#39;Ethopie (41).  </p></li>
+<li><p><strong>Taux d&#39;alphabétisation</strong>, appelé aussi niveau d&#39;éducation. C&#39;est un sustème complet qui va de la petite enfance à l&#39;université.</p>
+
+<ul>
+<li><strong>Un analphabétisme</strong>: c&#39;est une personne qui n&#39;a jamais été scolarisé, et ne sait ni lire ni écrire. On la trouve généralement dans les pays pauvres.</li>
+<li><strong>Illéttrisme</strong>: Cela désigne des personnes qui on été scolarisé, mais non plus pratiqué leur langue maternele et qui ne comprenne plus un texte simple (par exemple SDF). Cela concerne les populations des PIDs.</li>
+</ul></li>
+<li><p><strong>La place des femmes dans une société</strong>: Plus les femmes sont consiéré à égaliter avec les hommes, plus il y a de développement.</p></li>
+<li><p><strong>La situation des droits démocraties</strong>, droit des minorités.</p></li>
+</ul>
+
+<p>L&#39;IDH se mesure par un chiffre qui va de 0 à 1. Entre 0,5 et 0,7, le pays et considéré en développement. Les pays qui ont entre 0,8 et plus de 0,9 sont considéré comme pays développé. Entre les deux, on trouve certains pays emergeants. Une situation de guerre peut nous faire tomber à 0,3.</p>
+
+<h3 id="toc_4">Analyse de document p.32 (<em>méthodologie</em>)</h3>
+
+<h5 id="toc_5">Comment analyser une photographie?</h5>
+
+<p><img src="Source/icon.jpg" alt="alt text"></p>
+
+<p><code>Ce type de document est appelé iconographique.</code></p>
+
+<p>l&#39;analyse comme un texte à partir d&#39;abord d&#39;une idée générale: La poussée urbaine dans les campagne de Chine.</p>
+
+<h2 id="toc_6">B) Des inégalités à touts les échelles</h2>
+
+<p>Il existe 204 états sur la planète, mais 194 sont officiellement reconnu par les Nations Unis. Depuis 1960, l&#39;ONU a mis en place une typologie des principaux états.  </p>
+
+<h3 id="toc_7">Pays du Nord:</h3>
+
+<ul>
+<li><p><strong>Triade</strong> (des vielle puissance industrielle qui exerce une influance sur leur continent ou sur le monde):  </p>
+
+<blockquote>
+<p>USA<br>
+Union Européenne<br>
+Japon</p>
+</blockquote></li>
+<li><p><strong>Vieilles puissances</strong>:</p>
+
+<blockquote>
+<p>Canada<br>
+Australie<br>
+Nouvelle Zélande.</p>
+</blockquote></li>
+</ul>
+
+<p>Ce sont des états qui se sont industrialisés au même moment, c&#39;est-à-dire <strong>deuxième moitié du XIX ème</strong> siècle.</p>
+
+<h3 id="toc_8">Dragons d&#39;Asie (Asian tigers):</h3>
+
+<blockquote>
+<p>Corée du Sud<br>
+Taïwan<br>
+Singapour<br>
+Hong Kong</p>
+</blockquote>
+
+<p>Des puissances industrielles très dynamiques qui se sont développé en une trantaine d&#39;année. (De l&#39;industrie légère au départ.)<br>
+Ces états passent par le modèledu développement du Japon.</p>
+
+<h5 id="toc_9">Corée du Sud:</h5>
+
+<div><pre><code class="language-none">- Voiture
+- appareil électrique
+- Dictatorial jusqu&#39;au 1979
+- Reçoit beaucoup d&#39;aide américain dans les 1960</code></pre></div>
+
+<h5 id="toc_10">Taïwan (politiquement):</h5>
+
+<div><pre><code class="language-none">- Représentant de la Chine avant le 1971
+- Commence par industrie légère
+- Très dynamique</code></pre></div>
+
+<h5 id="toc_11">Singapour</h5>
+
+<div><pre><code class="language-none">Un CITE-ETAT très dynamique sur le plan finnancière et industriel.</code></pre></div>
+
+<h5 id="toc_12">Hong Kong</h5>
+
+<div><pre><code class="language-none">Redevenu chinois en 1997, mais à conserver dynamisme industrielle.</code></pre></div>
+
+<p>Ces pays constituent un modèle de développement avec une population limité.</p>
+
+<h3 id="toc_13">Les &quot;petits tigres&quot; d&#39;Asie (little tiger):</h3>
+
+<blockquote>
+<p>Thaïlande<br>
+Viêt-Nam<br>
+Malaisie<br>
+Indonésie<br>
+Philippines  </p>
+</blockquote>
+
+<p>Ce sont des pays beaucoup plus peuplé qui on commencé à se développer à partir de 1990, mais qui ont été bloqué par la grande crise bourdière en  1997. La crise boursière a stoppé le développement économique de ces états.</p>
+
+<h3 id="toc_14">Etats pétroliers:</h3>
+
+<blockquote>
+<p>Arabie Saoudite<br>
+Iran<br>
+...</p>
+</blockquote>
+
+<p><em>O.P.E.P: Organisation des Pays Exporateur de Pétrole. (fondé en 1973)</em></p>
+
+<h3 id="toc_15">Les pays émergeants:</h3>
+
+<p>(2000)  </p>
+
+<ul>
+<li>taux de croissance +10%</li>
+<li>Un pays potentiel industriel</li>
+<li>100+ millions d&#39;habitant<br>
+<code>Chine, Inde Brésil</code></li>
+</ul>
+
+<p>(2010)<br>
+<code>Russie, Afrique du Sud</code><br>
+(BRICS = Brasil Russia India China South-Africa)</p>
+
+<p>(2016)<br>
+<code>Mexique, Nigeriam, Turqie... (Indonésie, Philippines?)</code></p>
+
+<h3 id="toc_16">P.M.A (Pays Moins Avancés)</h3>
+
+<p>Caractéristique:</p>
+
+<ul>
+<li>pas de ressource (ou non-exploité)</li>
+<li>pas d&#39;industrie</li>
+<li>pas de stabilité</li>
+<li>guerre -&gt; Chaos</li>
+</ul>
+
+<h3 id="toc_17">Conclusion:</h3>
+
+<p>Cette typologie n&#39;est pas figée et des évolutions sont possibles.Ainsi un pays en guerre peut voir du jour au lendemain sa situation régréssé et une sortie de crise ne se mesure que dans la stabilité au moins 25 ans.</p>
+
+<h3 id="toc_18">La mise en œuvre du développement durable.</h3>
+
+<p>qu&#39;est ce que développement durable?<br>
+<strong>En 1987: Gro Harlem Bruntland</strong> (premier ministre norvégien); dans son livre &quot;Notre avenir à tous&quot; a proposer une notion de &quot;développement durable&quot;.  </p>
+
+<p>Définition du terme &quot;<strong>Développement durable</strong>&quot;: <em>C&#39;est le déveoppement permettant d&#39;assrer les besoins du présent sans compromettre la capacité des générations futur à répondre au l&#39;heure.</em>  </p>
+
+<p>Il s&#39;agit de permettre à la planète de poursuivre son développement en intégrant la notion de lutte contre la pollution  et de permettre également une gestion des ressources plus équilibrés.</p>
+
+<h4 id="toc_19">VOIR SCHÉMA PAGE 41</h4>
+
+<p>Le développement durable respose sur trois &quot;piliers&quot;: concilier croissance économique, progrès social et gestion de l&#39;environnement, auxquels peut s&#39;ajouter l&#39;boectif de préservation des identitiés culturelles.<br>
+Au total, le développement diurable vise à relever deux grands défis:</p>
+
+<ul>
+<li>réduire les inégalités actuelles des paus et entre le &quot;Nord&quot; et &quot;Sud&quot; de la planète (&quot;mieux vivre aujourd&#39;hui&quot;)</li>
+<li>préserver les conditions d&#39;une satisfaction des besoins des générations futures pour leur transmettre une Terre vivable, équitable et viable (&quot;bien vivre demain&quot;)</li>
+</ul>
+
+<h2 id="toc_20">C) La pollution</h2>
+
+<p>La question de la pollution des villes se pose depuis 1972 lorsque les experts du club de Rome ont alerté les états sur les dangers pour l&#39;être humain de santé publique. Les responsables de la pollution au fioul/fuel (mazout). Les états n&#39;ont pas vraiment pris la mesure des problèmes de poluution et il a fallu attendre 1992 à la conférence de Rio pour commencer à réagir. C&#39;est à cette date que la notion de développement durable ou bien d&#39;écodéveloppement à été adopté. Les 273 états présents s&#39;engageaient dans un texte appelé Agenda 21 à mettre en place une politique de lutte contre la pollution. En 1997, à la conférence de Kyoto, il a été décidé de réduire les émissions de gaz à effet de serre, et aussi de souvegarder l&#39;eau et les forêts considéré commen bien commun de l&#39;humanité.</p>
+
+<p>L&#39;avenir de la planète est donc menacé(e?) et certaine ville essaie d&#39;inventer la &quot;ville du futur&quot;. Celle ci a été défini en 1994 lors de la charte d&#39;Aalborg:</p>
+
+<ul>
+<li>Réduire les gaz à effet serre en améliorant le type d&#39;hanitat</li>
+<li>Lutter contre l&#39;étalement des villes</li>
+<li>Multiplier les transports en commun, si possible non-polluant.</li>
+<li>Recycler les déchets</li>
+<li>Frérer(?) emissions de gaz carbonique et d&#39;aller vers la ville de zéro carbonne.</li>
+</ul>
+
+
+
+
+</body>
+
+</html>

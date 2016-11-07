@@ -1,0 +1,147 @@
+.title {
+    font-size: 32px;
+    background-color: darkblue;
+    padding-left: 50px;
+    color: white;
+    font-family: Gill Sans;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color : #E0E0E0;
+}
+
+a:hover {
+    color: grey;
+}
+
+.nav {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-eng {
+  background-color: #52DAD4;
+}
+
+.nav-fra {
+  background-color: #AAD435;
+}
+
+.nav-hg {
+  background-color: #29C278;
+}
+
+.nav-mat {
+  background-color: #4EDAA0;
+}
+
+.nav-bio {
+  background-color: #85D3E5;
+}
+
+.nav-chm {
+  background-color: #7D8CE3;
+}
+
+.nav-phy {
+  background-color: #4A6BD9;
+}
+
+.nav-eco {
+  background-color: #6D35D4;
+}
+
+.subj {
+  display: inline;
+  text-align: left;
+  font-size: 25px;
+}
+
+.nav-hg,
+.nav-eng,
+.nav-mat,
+.nav-fra,
+.nav-bio,
+.nav-chm,
+.nav-phy,
+.nav-eco {
+  width: 100%;
+  padding: 2px 2px 2px 2px;
+  margin: 0.5em;
+  color: whitesmoke;
+  display: flex;
+  display: inline-block;
+}
+
+.nav-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 2em;
+  color: grey;
+  text-align: center;
+}
+
+.nav-index {
+  background-color: #333333;
+  opacity: 0.9;
+  width: 5em;
+  color: grey;
+  text-align: center;
+  display: inline;
+  font-size: 16px;
+  float: right;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.sub {
+    padding-left: 25px;
+    background-color: azure;
+    width: 250px;
+}
+
+ul {
+  list-style: none;
+  padding: 5;
+  color: white;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.copyright {
+  text-align: right;
+  background-color: #777777;
+  color: white;
+  font-size: 10;
+  font-family: Impact;
+}
+
+.hidden {
+    display: none;
+}
+
+#more {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 50px;
+}

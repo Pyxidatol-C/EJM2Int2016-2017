@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>Herodotus</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Herodotus</h1>
+
+<p><img src="source/book.jpg"></p>
+
+<h2 id="toc_1">Introduction</h2>
+
+<p>Guiding question:   </p>
+
+<ul>
+<li>What was Herodotus&#39;s contribution to history?</li>
+</ul>
+
+<h3 id="toc_2">Herodotus&#39;s contribution to history</h3>
+
+<ol>
+<li><strong>myth from fact</strong></li>
+<li>Father of history</li>
+<li><em>Different perspectives</em></li>
+<li><em>Impartial / neutral</em></li>
+<li>Perception of women</li>
+<li><strong>Wider appraoch</strong>
+
+<ul>
+<li>Greco-Persian War
+
+<ul>
+<li>partial history of Athens / Sparta</li>
+</ul></li>
+</ul></li>
+<li><em>Causality / origins</em></li>
+<li><em>Source criticism</em></li>
+<li>Place of religion</li>
+<li><strong><em>methodology</em></strong> (3, 4, 7, 8)
+
+<ul>
+<li><em>autopsy</em>: &#39;seeing for oneself&#39;, inquiry</li>
+</ul></li>
+</ol>
+
+<h2 id="toc_3">Chapter 1: The world of Herodotus</h2>
+
+<ul>
+<li>What was Herodotus&#39;s environment? </li>
+</ul>
+
+<h3 id="toc_4">Herodotus&#39;s environment</h3>
+
+<ol>
+<li><p>Intellectual</p>
+
+<ul>
+<li>family</li>
+<li><p>location - Halicarnassus / Crossroad East/West</p>
+
+<ul>
+<li>innovative hotbed</li>
+</ul>
+
+<blockquote>
+<p>The greek cities of Ionia, moreover, were hotbeds of innovative and often audacious thought. In the absence of firmly established scientific methods, what we now think of as discrete intellectual disciplines - natural science, philosophy, psychology, theology - merged far more than they do today. (p 8)</p>
+</blockquote>
+
+<ul>
+<li>Hippocrates - <em>counterpart of Herodotus</em></li>
+</ul>
+
+<blockquote>
+<p>The island of Cos where Hippocrates worked was just across the strait from Halicarnassus. Eyewitness observation, interview, evaluation of evidence, the use of analogy, and a cumulative analysis of data linked Herodotus&#39;s work to the world of the physicians. He no douby learned from them, and they from him. All this goes a long way to explain the ferility of Herodotus&#39;s mind, his commitment to researchm his intrepid curiosity about climate and topography, his openness to new ideas and tolerance of cultural diversity, but only an extraordinary drive could account for his decision to undertake an unprecedented work of this scope. Ranging widely in time and space, <em>The Histories</em> was too long to have been recited at a festival in its entirety. Even a tag team of readers would have required at least fifty hours for such a performance. (p 9)</p>
+</blockquote></li>
+</ul></li>
+<li><p><em>Psilos Logos</em></p>
+
+<ul>
+<li><blockquote>
+<p>The education of Greek boys - and the occasional gil- was remarkable both for what it taught and what it didn&#39;t. A bit of maths was offered, but no social studies, no science. The essence of Greek educaton was <em>mousike</em>, poetry set to the music of lyre. <em>Mousike</em> took its name from the goddesses who inspired it, the Muses, and gave us in turn the word &#39;music&#39;; from the lyre, we get &#39;lyrics&#39;. Though Herodotus cited any number of poets in his <em>Histories</em>, it was primarily Homer&#39;s majestic work that infused his own and offered both harmony and counterpoint to his narrative ... For Homer had provided the template for both the war story and the travel tale rife with wonders. (p 11)</p>
+</blockquote></li>
+<li><p>&quot;naked speech&quot; vs. verse / poetry</p>
+
+<blockquote>
+<p>In Herodotus&#39;s own day, prose came into its own, particularly in the burgeoning democracy of Athens, where the first laws had been written in prose already in the late 7th century, and skill in public speaking - in the assemblies, in the courts - was soon on a philosopher/rhetoricians known as sophists were eagerly at hand to instruct young men in this increasingly valued art of persuation. Because of their propensity for looking at old questions from new angles (and questioning what had never been questioned before, at least out loud), their detractors acuused them of making a living by teaching uppity adolescents to disrespect gods and parents. But in fact, what they did was in many ways no different from what teachers - the good ones - do today: teach youth to question authority and make solid arguments. And it was not only in Athens that they piled their wares. Though by no means all Greek cities developed democracies, the spirit of open debate and rabuttal characteristic of intellectual speculation that had marked the 6th to lay the groundwork for the kind of analytical inquiry found in Herodotus&#39;s work. (p 12)</p>
+</blockquote></li>
+<li><p>transition between:</p>
+
+<ul>
+<li>oral tradition</li>
+<li>verse</li>
+<li>read loud, ask quietly</li>
+</ul></li>
+<li><p>to:</p>
+
+<ul>
+<li>literal tradition</li>
+<li>prose</li>
+<li>read quietly, ask loud</li>
+<li>writing</li>
+<li>confrontation of ideas<br></li>
+</ul></li>
+</ul></li>
+</ol>
+
+<h2 id="toc_5">Chapter 2: Origins and the historian</h2>
+
+<ul>
+<li>What is the importance of causality?<br></li>
+</ul>
+
+<blockquote>
+<p>Without causality, the concept of history is meaningless. (p 21)</p>
+</blockquote>
+
+<ul>
+<li>Relate this to the story of Candaules and Gyges.</li>
+</ul>
+
+<blockquote>
+<p>But who are these Greeks? What are <em>their</em> origins? Herodotus&#39;s engagement with this question - indded, his very openness to engaging with it - reveals a different Herodotus from the storytelling Herodotus who has narrated the engaging tales of Gyges, of Croesus, of Cyrus. (p 27)</p>
+</blockquote>
+
+<p><img src="source/causality_c-and-g.png" style="width: 2400px; height: 600px;">
+- What is Herodotus&#39;s role with respect to source critism?</p>
+
+<blockquote>
+<p>Both in his storytelling mode and in his ethnographic mode, then, Herodotus manifests a strong belief that to understand history one must understand origins. He is aware that national pride leads people to offer sanitized versions of their origins that downplay racial mixture and cultural borrowing. Throughout <em>The Histories</em>, he engages with the origins of origins, noting that the traditions about traditions are suspect, and that we must always consider the source. Those who censure Herodotus for some of the taller tales in his text should remember his role in the foundation of source criticism. (p 28)</p>
+</blockquote>
+
+<h2 id="toc_6">Chapter 3: Greeks and Persians at war</h2>
+
+<ul>
+<li>What are the outcome of the wars of Marathon, Thermopylae, and Salamis and their significance?</li>
+</ul>
+
+<h3 id="toc_7">Marathon</h3>
+
+<ul>
+<li>Origin: Ionian revolt (<strong>with Athenian aid</strong>) =&gt; Sardis (old city of Croesus)</li>
+<li>Outcome: 
+
+<ul>
+<li>192 Athenians: victory =&gt; motivation
+
+<ul>
+<li>democratic vote =&gt; Miltiades as general</li>
+</ul></li>
+<li>6400 Persians
+
+<ul>
+<li>mostly slaves / <strong>forced</strong></li>
+</ul></li>
+<li>Darius - Persian king
+
+<ul>
+<li>mad</li>
+<li>wants Sardis and Marathon back</li>
+<li>dies<br></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>=&gt; <strong>Athenian victory</strong><br>
+<span style='color: red'><strong>Motivation</strong></span>: weaker power wins against stronger power</p>
+
+<h3 id="toc_8">Thermopylae</h3>
+
+<ul>
+<li>Xerxes - successor of Darius: equally mad</li>
+<li>Thermopylae: at the top of a hill</li>
+<li><p>Demaratus: </p>
+
+<ul>
+<li>former Spartan king</li>
+<li><p>Xerxes&#39;s adviser: warns him against the Spartans</p>
+
+<blockquote>
+<p>Fighting one on one, they are as good as any, but fighting in formation they are the best soldiers in the world. They are free - yes - but not entirely so; for they have a master, and that master is Law (<em>Nomos</em>), which they fear far more than your subjects fear you. Whatever this master commands, they do, and its command is always the same: it is never to retreat in battle, however great the odds, but always to maintain their positions, and either conquer or die.</p>
+</blockquote></li>
+</ul></li>
+<li><p>Leonidas</p>
+
+<ul>
+<li>Spartan king</li>
+<li>discharges Athenian soldiers</li>
+<li>stays at Thermopylae with 300 soldiers
+
+<ul>
+<li>all die at the end, but saves time for Greece</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>=&gt; - <span style='color: red'><strong>important symbolic battle</strong>: <em>military defeat, moral victory</em> or <em>triumphant victory</em></span></p>
+
+<blockquote>
+<p>Herodotus bills Thermopylae as a resounding moral victory. It not only bought time for the Greeks to the south but inspired them to resist the Persians in order to avenge Leonidas and his men. (p 37)</p>
+</blockquote>
+
+<h3 id="toc_9">Salamis</h3>
+
+<ul>
+<li>war at sea</li>
+<li>Oracle: &quot;wooden wall&quot;
+
+<ul>
+<li>fortification in Acropolis</li>
+<li>naval ships</li>
+</ul></li>
+<li><p>Themistocles</p>
+
+<blockquote>
+<p>The architect of the Battle of Salamis was the brilliant Athenian politician Themistocles, who had persuaded the Athenians that the oracle they had received from Delphi about a &#39;wooden wall&#39; referred not to the wooden fortifications on the Acropolis but rather to the wood of which their ships were made. Thus he persuaded them to abandon the territory to Xerxes, moving the women and children to Salamis with the idea of bringing them home after the Persians had been beaten back. (p 37-38)</p>
+</blockquote>
+
+<ul>
+<li>convinced Athenian people that the oracle refers to naval fleets</li>
+<li>convinced Athenian people to retreat to Salamis</li>
+</ul></li>
+<li><p>trap: convinces Xerxes that the Greeks are afraid </p></li>
+<li><p><span style='color: red'><strong>Strategy</strong></span></p></li>
+</ul>
+
+<p>≠ end of Greco-Persian war</p>
+
+<blockquote>
+<p>Mardonius, understandably, feared that he would be punished for having urged the Greek war on Xerxes, and he assured the gloomy king that the loss of &#39;some planks of wood&#39; would not stand in the way of an ultimate victory. Ratherm the outcome of the conflict would depend, in the last analysis, on men and horses. (He does not mention the men who went down with the &#39;planks of wood&#39;.) Do not lose heart, he says; sonner or later the Greeks will pay for what they have done to you. If you like, go home. I will stay here with a portion of the army and make you master of Greece. (p 39)</p>
+</blockquote>
+
+<p>End of Greco-Persion war:</p>
+
+<blockquote>
+<p>Rumour had it that it was on the very same day that the Greek fleet prevailed against the Persians at Mycale in Ionia: &#39;the divine ordering of things&#39;, Herodotus wrote, &#39;is made clear by many proofs&#39;, not least of which was the divinely aided report of the victory at Plataea that reached Mycale just as battle was about to be engaged, a development that gave a powerful boost to the Greek&#39;s morale. With the Persians&#39; defeat at Mycale, their attempt to conquer the Greeks came to an inglorious end. The unthinkable had happened. A band of small, poor Greek states, acting in concert to defend their homeland, had triumphed over the wealthy Persian king and his host of, literally, millions.</p>
+</blockquote>
+
+<ul>
+<li>Were the Greeks always portrayed as united?<br></li>
+</ul>
+
+<blockquote>
+<p>For even the most casual reading of Herodotus&#39;s narrative makes plain his awareness that the Greeks were anything but united in defending their homeland. More Greeks fought for Xerxes than fought against him. Among the allied states, ambivalence and apathy were widespread. Miltiades had an uphill fight persuading the Athenian commanders to engage the Persians at Marathon. The Spartans sent only a small force to Thermopylae, and their allies were so skittish that Leonidas was evidently nervous about having them around. On the eve of Salamis, Themistocles threatened to put all the Athenians on board their ships and sail away to Italy if the Spartan commander Eurybiades would not agree fight in the straits rather than pulling back to the Isthmus; even after persuading Eurybiades, he viewed the situation as so dicey that he was willing to provoke a Persian blockade in order to force a battle. The following spring, the Spartans thought twice about acceding to the Athenians&#39; request for help at Plataea. In fact, they seriously considered walling the Isthmus that separated their territory from that of the Athenians and abandoning them to their fate. And the Athenian&#39;s showy protestations of undying loyalty to Greece were balanced by far darker words almost immediately afterwards, when they dropped hints to the Spartans that if they did not get moving, then they might hive to reconsider accepting Perians&#39; terms. So much for Greek solidarity (p 41-42)</p>
+</blockquote>
+
+<h2 id="toc_10">Chapter 4: Herodotus as ethnographer</h2>
+
+<ul>
+<li>What is an ethnographer?</li>
+</ul>
+
+<blockquote>
+<p>Ethnography can be seen as made up of two key features that blend existentially: perspective and methodology. An ethonographer must be both humanist and scientist - humanist in the ability to transcend his or her own culture and evaluate other societies in a <strong>non-judgemental framework</strong>, scientist in the gathering of evidence through observation and interview. (p 49-50)</p>
+</blockquote>
+
+<p>What an ethonographer studies:</p>
+
+<blockquote>
+<p>The notion that cultural norms varied over time and space was hotly contested in Herodotus&#39;s day (though few Greeks suspected, as Herodotus did, that some foreign ways might be better than than their own). Did the gods really exist, some wondered, or had people made them up? If you didn&#39;t like a loaw, could you jsut change it, or was there some kind of underlying natural principle that would cry out against this? It all boiled down to <em>nomos</em> versus <em>physis</em>. The Greek word nomos embraced several different ideas: legal enactment, socially reinforced norm, value, custom, habit. The <em>physis</em> (nature) champions saw some things as right, others as wrong, and considered this distinction eternal and non-negotiable. <em>Nomos</em> people took a different view. For them, rules were man0made and could be changed - or ignored. <em>Nomoi</em>, of course, are precisely the sorts of things that interest ethnographers. Who makes the rules among these people, and what are the penalties for their violation? What do they respect? How do they spend their days? What about sex? Marriage? Child-rearing? How do they handle death? Who eats what; why? <em>Physis</em> may be of some interest as well - climate, for example, might shape individuals and cultures - but <em>nomos</em> takes pride of place. (p 50-51)</p>
+
+<p>Much of the data Herodotus shares with us not only concern non-Greek and therefore noteworthy customs but also outline a distinct life cycle of sex, marriage, food, and death. All these take place in a social context: sexual mores lead ultimately to childbirth; the newly created human must follow group norms in its eating habits and, again, sexual life; and in time, he or she will undergo a socially sanctioned funeral and burial (or the lack of them): sometimes the traditions of the group will actually bring about the deaths of its individuals, and always they will determine what is done with bodies after death. (p 57)</p>
+</blockquote>
+
+<ul>
+<li>In what way and to what extent is Herodotus an ethonographer? </li>
+</ul>
+
+<blockquote>
+<p>In both areas, Herodotus&#39;s natural curiosity and energy led him to pioneer a new field that would greatly broaden his fellow Greeks&#39; understanding of the human community anda eventually lay the foundation for European anthropologists working in the new world. (p 50)</p>
+
+<p>It is true that Herodotus did not assemble his varied data sufficiently to get at the heart of what made a society tick. He tells us a great deal about the rituals of the peoples he discusses - burial rites, animal sacrifice, the occasional human sacrifice - but almost nothing about their belief systems. He did not stay in any one place long enough to become a master of its ethos, and for this he is often taken to task as not practising &#39;real&#39; ethnography - for being really nothing more than a tourist, He did not fully adopt the role of &#39;participant observer&#39;, settling among a people for the traditional anthropological minimum stay of a year and seeking to blend in with his surroundings even as he devoted himself to interviewing native informants. Kapuściński tells how he shared hashish with some people he met in Sudan; Herodotus reports that the Scythians got high on cannabis, &#39;howling with pleasure&#39;, but nowhere suggests that he himself partook of the experience. Of course, modern anthropologists delude themselves when they imagine they have effaced their identity and become one with &#39;their&#39; people, but they at least go through the motions. And Herodotus was no doubt just as vulnerable as modern ethnographers to lying informants who took no end of pleasure in pulling a sober inquirer&#39;s leg. (p 59)</p>
+
+<p>His linguistic limitations not only left him at the mercy of interpreters and the minority of Greek-speaking locals - hardly a representative bunch - but stamped him indeliby as an outsider. One is reminded of the observations of Kapuściński, who writes that there must have been <em>something in my appearance and gestures, in my way of sitting and moving, that gave me way - betrayed where I came from, from how different a world. I sensed that they took me for an alien.... I began to feel unpleasant and uncomfortable. I had changed my suit, but I apparently could not conceal whatever lay beneath it that had shaped and marked me out as a foreign particle.</em> (p59 - 60)</p>
+
+<p>Contrasts are key to the notion of ethnography. Distinctive practices can help define what makes a society unique, and, perhaps more important still, great contrasts make great stories. For the ethnographer, as we have seen, is not only voyeur, although Herodotus certainly adopts this role (an ironic one, in view of the value placed in the Gyges tale on looking only on one&#39;s own); he or she is also exhibitionist. For all the professional protocol that calls for regarding alien customs with equanimity, it is hard not to cry out, &#39;See what I found! Look at this! Isn&#39;t it amazing! Not like anything we&#39;ve seen before, is it?&#39; Herodotus&#39;s presentation of the &#39;upside-down&#39; customs of Egypt, a land where even the river flows backwards, is always included when &#39;Herodotus&#39;s greatest hits&#39; are assigned in schools. (p 62)</p>
+
+<p>Herodotus set out to memorialize the wondrous deeds of both Greeks and non-Greeks, but in dealing with these two sets of peoples, he found that they did not form monolithic blocs. Dramatic differences divided not only the various groups of barbarians&#39; but also the Greeks themselves, as witness the Spartans, whose customs sometimes parallel barbarian customs and are thus inevitably of interest to the man Kapuściński called &#39;the first globalist&#39;. In <em>The Histories</em>, Herodotus combines large ideas - the sanctity of nomos, the possibility of departures from patriarchal norms, the mind boggling multiplicity of human pathways - with a wealth of detains. Because such details fascinate him, he makes them fascinating to us. </p>
+</blockquote>
+
+<p>=&gt; cultural differences</p>
+
+<h2 id="toc_11">Chapter 5: Women in history, women in <em>The Histories</em></h2>
+
+<ul>
+<li>What is the importance of women? </li>
+</ul>
+
+<blockquote>
+<p>Women are ubiquitous in <em>The Histories</em> as well. Herodotean scholar Carolyn Dewald has counted 375 mentions of women or femaleness in Herodotus&#39;s work, The roles of females in <em>The Histories</em> are extraordinarily diverse, ranging from impalers to kidnapping victims, from queens to slaves, from hydraulic engineers to precocious girls, Women pull men together in marriage alliances and drive them apart in family strife; they kill and are killed; they rescue some relatives and destroy others. (p 65-66)</p>
+</blockquote>
+
+<p>ex. nameless queen, wife of Candaules + Gyges</p>
+
+<blockquote>
+<p>The queen, however, sees Gyges as he exits the royal bedchamber, and she reacts with impressive sangfroid. Had something like this perhaps happened before? Did she say to herself, &#39;All right, that does it. This is the last time he pulls this stunt!&#39;? It is curious that she does not assume that a coup is afoot, does not cry out for assistance. She knows her husband well - better than he knows her. What he has been seeing when relishing her outward beauty was in fact misleading: she is more threat than treasure, Rather than betraying her emotions during the night, she calmly summons Gyges in the morning and explains that he and Candaules have created a situation in which she has been seen naked by two men, One of them has to go. Given the choice of killing the king or dying himself, Gyges kills Candaules, marries the queen, and founds a new dynasty. (p 67)</p>
+</blockquote>
+
+<p>=&gt; how intelligent she was</p>
+
+<ul>
+<li>Mistreeting of women:<br>
+Candaules, Astyages, Xerxes</li>
+</ul>
+
+<blockquote>
+<p>&quot;Autocrats, we learn, mistreat women.&quot; (p 68)</p>
+</blockquote>
+
+<p>ex. Xerxes&#39;s wife, Ametris
+<img src="source/women.png"></p>
+
+<p><strong>man</strong>: disrespect woman<br>
+<strong>woman</strong>: having been disrespected, the one ultimately having the high hand -&gt; control her distiny (bold, intelligent)</p>
+
+<p>Female warriors:</p>
+
+<ul>
+<li>Tomyris
+
+<ul>
+<li>Queen of Massagetae</li>
+<li>brought down Cyrus </li>
+</ul></li>
+<li>Artemisia
+
+<ul>
+<li>fought for the Persian side at Salamis</li>
+<li>sunk a Persian ship, survived, controlled her destiny</li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p>Throughout <em>The Histories</em>, Herodotus uses women to illustrate the dangerous proclivities of men, but at the same time woemn interest him as actors in their own right. This pattern echoes the treatment of non-Greeks in the ethnographies: they are useful to think with because of the way they lead the reader to look at Greek <em>nomoi</em> in a new light, but their customs also merit study in and of themselves. Like the different peoples he has studied, the women Herodotus discusses are extraordinarily varied. Herodotus is no essentialist in his approach to women. Ultimately, the broad worldview that declines to regard women as a race apart from men with distinguising and universal characteristics is the one of the key links between <em>The Histories</em> and the Homeric epics. (p 75)</p>
+</blockquote>
+
+<h3 id="toc_12">Who really changed the course of history?</h3>
+
+<ul>
+<li>Candaules&#39;s wife <em>(turns the dynasty)</em></li>
+<li>Cyno <em>(raises Cyrus)</em></li>
+<li>Tomyris <em>(brings down Cyrus)</em></li>
+</ul>
+
+<p>Herodotus views women in a <strong>respectful perspective</strong>, unlike other historians at the time.</p>
+
+<h2 id="toc_13">Chapter 6: Herodotus and the divine</h2>
+
+<blockquote>
+<p>The belief that there is &#39;something out there&#39; beyond the purely human and natural has been persistent throughout history. Despite a dogged minority of sceptics, some closeted, others vociferous, religion has been pretty much of a cultural universal across time and place. Faith in - or fear of - extra-human forces and their power to shape events seems to be pervasive, and a wide network of systems has been designed to gain access to their thoughts and wishes by prayer and/or through the interpretation of such things as omens, dreams, and oracles.</p>
+</blockquote>
+
+<h3 id="toc_14">Oracle of Delphi</h3>
+
+<div><pre><code class="language-none">    an old, poor woman -&gt; priest (Pythia)
+    enters a trance in a small room (possibly caused by ethylene);
+    her incoherent words during this state are recorded;
+    -&gt; translated by another priest -&gt; prophecy or the oracle</code></pre></div>
+
+<ul>
+<li>wooden wall</li>
+<li>Candaules &amp; Gyges</li>
+<li>fall of Empire - Croesus</li>
+<li>King Leonidas - Thermopylae<br></li>
+</ul>
+
+<p>= always consulted</p>
+
+<p>Perspective of Herodotus:</p>
+
+<ul>
+<li>human dimension = more important</li>
+<li>The human beings (demigod, hero) that interpreted the oracle and actually fought the war should be accredited instead of the gods.</li>
+</ul>
+
+<h2 id="toc_15">Chapter 7: Herodotus as storyteller</h2>
+
+<p>= knows how to make history entertaining</p>
+
+<h2 id="toc_16">Chapter 8 Herodotus as historian</h2>
+
+<p><strong>Herodotus</strong> &lt;=&gt; historian / Father of history</p>
+
+<blockquote>
+<p>interpreted / looked at the lenses of <strong>400 B.C.</strong> <em>≠ today</em></p>
+</blockquote>
+
+<h3 id="toc_17"><a>No / Critics</a>:</h3>
+
+<ul>
+<li>language</li>
+<li>travels</li>
+<li>exaggeration</li>
+</ul>
+
+<h4 id="toc_18">Examples:</h4>
+
+<ul>
+<li>Lion born of concubine</li>
+<li>winged snakes
+
+<ul>
+<li>dragonflies / misinterpretation</li>
+</ul></li>
+<li>calf of Apis
+
+<ul>
+<li>different expression</li>
+</ul></li>
+<li>Xerxes&#39; army: <strong>2, 317, 610</strong> at the start to <strong>5, 283, 270</strong> men</li>
+<li>death at Marathon: <strong>192</strong> vs about 200</li>
+<li>Marathon charge / hoplite </li>
+<li>monument at Delphi</li>
+</ul>
+
+<p>=&gt; can be expalined</p>
+
+<h3 id="toc_19"><a>Yes</a>: =&gt; contribution to history</h3>
+
+<ul>
+<li>unbiased (<em>both sides</em>)</li>
+<li>causality / origins</li>
+<li>sceptic
+
+<ul>
+<li> <em>autopsy</em>: seeing for oneself</li>
+<li> source criticism</li>
+<li> doubt</li>
+<li> myth from fact</li>
+</ul></li>
+</ul>
+
+<p>=&gt; doubt + questioning</p>
+
+<ul>
+<li>7 principles of inclusion in historical writing: 
+
+<ol>
+<li>the principle of aestheticism: what should be preferred is what is most interesting or aesthetically pleasing; =&gt; <strong>Ch 7</strong> </li>
+<li>the principlle of abnormalism, what is most unusual or bizarre; =&gt; <strong>Ch 4</strong></li>
+<li>the principle of moralism, what is morally instructive; <strong>=&gt; Ch 6</strong></li>
+<li>the principle of pragmatism, what is useful in relation to present problems; <strong>=&gt; Ch 3</strong></li>
+<li>the principle of essentialism, what constitutes the &#39;main tendencies&#39; or &#39;essential nature&#39; of the subject; <strong>=&gt;Ch 6</strong></li>
+<li>the principle of encyclopaedism, what comes closest to expressing the whole truth about it; <strong>=&gt; Ch 2</strong></li>
+<li>the principle of modified encyclopaedism, what best organizes all the available evidence pertaining to the subject. <strong>=&gt; Ch 5</strong></li>
+</ol></li>
+</ul>
+
+
+
+
+</body>
+
+</html>
