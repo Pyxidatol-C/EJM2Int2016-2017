@@ -111,6 +111,7 @@ a:hover {
 }
 
 ul {
+  font-size: 20px;
   list-style: none;
   padding: 5;
   color: white;
