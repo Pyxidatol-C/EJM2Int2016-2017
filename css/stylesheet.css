@@ -3,15 +3,16 @@
     background-color: darkblue;
     padding-left: 50px;
     color: white;
-    font-family: Gill Sans;
+    font-family: monospace;
 }
+
 
 a:link {
     color: white;
 }
 
 a:visited {
-    color : #E0E0E0;
+    color:floralwhite;
 }
 
 a:hover {
@@ -111,10 +112,10 @@ a:hover {
 }
 
 ul {
-  font-size: 20px;
   list-style: none;
   padding: 5;
   color: white;
+    font-size: 25px;
 }
 
 .projects {
@@ -132,6 +133,7 @@ ul {
 .hidden {
     display: none;
     font-size: 20px;
+    padding-left: 25px;
 }
 
 #more {
