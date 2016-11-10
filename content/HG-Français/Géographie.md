@@ -157,3 +157,11 @@ L'avenir de la planète est donc menacé(e?) et certaine ville essaie d'inventer
 - Multiplier les transports en commun, si possible non-polluant.
 - Recycler les déchets
 - Frérer(?) emissions de gaz carbonique et d'aller vers la ville de zéro carbonne.
+
+
+####`DIFFERENTS ETUDES:`  
+
+- **Géopolitique**: C'est expliquer la politique intérieur d'un état en intégrant les facteurs géographiques.
+- **Géostratégie**: Adapter un type d'arme à un but de conquuête militaire.
+
+Les dangers qui portent sur les sources d'énergie concerne d'abord le pétrole. Entre 1980 et 2000, de nombreuse marée nore ont eu lieu. Ce sont de véritable catastrophes écologiques, qui portent atteinte (qui manifestent) à l'environement, surtout à la faune et à la flore. La dépollution est très longue. Les procès contre les armateurs peuvent s'étendre sur 10 à 15 ans. Il y a aussi des formes de pollutio plus restreinte (plus limité), qui sont deus aux dégages des pétroliers en haute-mer. Aujourd'hui, la demande en pétrole est de plus en plus importante, venant surtout des pays emergeants. La Chine cherche à diversifier ses fourniseurs, et elle investie beaucoup en Afrique, en particulier au Nigeria, et au Sud-Sudan. La Chine construit des routes, et participe à bâtir de nouveau quartier dans les grandes villes. Elle cherche surtout la stabilité politique des états, car des investisements comme le métro au Vénézuela
