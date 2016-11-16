@@ -7,9 +7,9 @@
 
 - <del>amplitude</del>
 - length of string √
-- <del>mass of the bob</del>
-- <del>shape of the bob/ air resistance</del>
-- <del>force of gravity</del>
+- <del> mass of the bob</del>
+- <del> shape of the bob / air resistance</del>
+- <del> force of gravity</del>
 
 
 **Sketch these graphs showing:**  
@@ -75,7 +75,7 @@ Problem: slope isn't constant
 <img src='source/pendulum_period_graph.png'>
 
 - Example of pendulum
-	- Theoritical relationship:  
+	- Theoretical relationship:  
 	<img src='source/pendulum_equation.gif'> 
 		- g = 9.8 m/s
 	- Linear relationship (**squared**):  
@@ -91,7 +91,7 @@ Problem: slope isn't constant
 accuracy rate = <img src="source/accuracy.png">
 
 ## Tools for analysis of results
-Mean result x̅ is <img src="source/mean_result_0.png"> which is equilavent to <img src="source/mean_result_1.png">.  
+Mean result x̅ is <img src="source/mean_result_0.png"> which is equivalent to <img src="source/mean_result_1.png">.  
 (∑: sum of ...   ; i: index, can be 0, 1, 2, 3...)
 
 - **Accurate result**  
@@ -114,7 +114,7 @@ Calculate the standard deviation of x:
 <img src="source/stddev_ex.png">  
 
 
-### Accuracy is a measurement of how close to the theoritical result (T) our experiment is. 
+### Accuracy is a measurement of how close to the theoraitical result (T) our experiment is. 
 
 - accurate
 
@@ -125,7 +125,7 @@ Calculate the standard deviation of x:
 
 ## Measurement errors
 ### Random error
-Errors that have no particular bia.   
+Errors that have no particular bias.   
 => Each measurement could be higher or lower with an equal distribution around the mean:  
 <img src="source/random_err.jpg">
 
@@ -145,3 +145,51 @@ Error that is always in the same direction.
 Use fractional uncertainty:  
 <a href=errors_how-to.pdf><img src="source/fractional_uncertainty.jpg"></a>
 
+and then add the fractional uncertainties up to get the fractional uncertainty in the final quantity, and multiply the fractional uncertainty by the value of the quantity.
+
+## IGCSE Exam questions
+(Graphs shown below are merely for the purpose of demonstration)
+
+1. The original hypothesis made by Gillian, was that the diameter of the craters is directly proportional to the energy of impact of the steel balls. Explain why the data doesn't support this hypothesis. **[3]**
+<img src="source/IGCSEgraph1.png" alt="demo graph">
+
+		A relationship of proportionality
+		-> linear relationship
+		
+		The data does not support the idea of a linear best fit
+		
+		∴ the data does not support the hypothesis of direct proportionality.
+
+2. A student hypothesizes that the resistance is inversely proportional to the temperature. Use data from the graph to show whether the hypothesis is supported. **[3]**  
+<img src="source/IGCSEgraph2.png" alt="demo graph">
+
+		"inversely proportional"
+		-> R ∝ k (1 / T)
+		<=> R * T = k
+		
+		Take two points from the graph:
+		A (285, 3000) B (370, 200)
+		
+		Point A: R * T = 285 * 3000 = 855 000
+		Point B: R * T = 370 * 200  =  74 000
+		
+		∴ the data does not support the idea of inverse proportionality.
+		
+# REVISION LIST
+- Accuracy, precision
+- Calculate for set of data 
+
+> mean, standard deviation
+
+- Calculate from relationship the uncertainties that relate to them
+
+> <a href="source/errors_how-to.pdf">how?</a>
+
+- Draw and label graph property, including drawing best fit line
+- Linear models where data follows a proportional relationship
+
+> slope, y-intercept
+
+- How, from a non-linear relationship would you have it linearised
+
+> <img src="source/Linearisation.JPG" alt="linearisation">

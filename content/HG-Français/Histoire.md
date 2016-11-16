@@ -83,3 +83,7 @@ Les stratèges commandent l'armée, et est un action essentiel.
 ## B) Les citoyens en action.
 - Le premier rôle des citoyens est de défendre la cité. (service militaire)
 - Après le service militaire, voue êtes plainement à l'âge de 21 ans.
+
+Pour les Athéniens, la guerre est un moment fondamental. C'est là qu'ils peuvent défendre la cité. L'organisation du conflit révèle une hiérarchie sociale. Les citoyens les plus riches financent la guerre en achetant leurs armes et en participant à l'achat des bateaux (**les tières**): les citoyens les plus riches financent a guerre. Ils sont en première ligne, et forme le cavailer. Les citoyens moins riches forment l'infantie et combatenten seconde position. Les citoyens pauvres ne combatent pas, mais vont être rameurs sur les trières. Les Athéniens ont combattu les Perses au cours des guerres médiques, et ont remporté 2 victoires: Celles de **Marathon (-490)**, et la victoire maritime de **Salamine (-480)**. Pour les Athéniens, ces victoires sont fondamentaux, car elles marquent la superiorité du système démocratique Athénien sur l'empire et la royauté perse. Le citoyen qui meurt au cjamps de bataille devient un héros. Cependant, les Athéniens vont être battu en **-404** par les Spartiates, ceux qui va marquer le décin de la démocratie.
+
+Donc les citoyens organisent et financent les **panathénés** (Ce sont des fêtes qui rendent hommage à Athéna, protectrice d'Athène). Les petites panathénés se déroulent en Juillet sur 3 jours. Elles obéissent à un ordre immuable. Le premier jour (...)
