@@ -95,3 +95,13 @@ Il exite **3** catégorie de non-citoyens:
 - **Les femmes**: leurs rôle est très important au sein de la famille. Elles sont chargées de l'éducation des enfants (apprentissage des mythes). Elles sont chargées aussi de veiller à l'équilibre budjétaire de la famille. Elles ne peuvent pas avoir d'existence juridique, et sont donc sous le pouvoir d'un homme. (mari, frère, fils...)
 - **Les métèques**: Ce sont les non-Athéniens. Ils viennent d'autre région de la méditéranée, et participent à la richesse économique de la ville. Ils peuvent faire des offrandes à la ville, mais ne sont jamais citoyens. Parcontre, il peuvent payer des impôt. Ils ne peuvent pas épouser une athénien(ne). 
 - **Les esclaves**: Les esclaves sont estimés à 200m. Ils sont appelés par Aristote "**outils parlants**". Ils sont achetés par les citoyens aux marchées aux esclaves et travaillent dans les champs ou dans des mines. Ils font partie du patrimoine d'un citoyen et sont comptés dans l'héritage.
+
+Au fil du temps, les citoyens les plus pauvres participent de moins en moins à la vie civique. N'ayant pas d'esclave, ils doivent travailler, et n'ont plus let temps de faire vivre la démocratie.
+
+Péricles met en place le **Misthoc**, c'est à dire une petite somme d'argent qui permet aux citoyens de participer à la vies politique. Mais cela ne suffit pas, et seules les grandes familles aisées font vivre le système. Le grand danger pour la démocratie est doncmanque de participation, et très vite, cela devient une affaire de professionelle. 
+
+Il y a un autre problème, qui est d'ordre **philosophique** (φ). Pour les grecs, la **rhétorique** est absolument capital. Il s'agit de l'art de "bien parlé". Un courant de pensés, appellé les **sohpistes**, considèrent que le discourt doit convaincre mais ne doit pas forcément chercher la vérité. Alors, s'ouvre l'époque des **démagogues** interviennent et tiennent un discourt séduisant. Ils ont pour but d'aller dans le sans de la facilité et de se faire aimé les citoyens en leur disant ce qu'ils ont evie d'entendre. Ainsi, ils peuvent dvenir stratèges, et une fois au pouvoir, changer de politique. Ce sont donc des citoyens dangereux, qui peuvent mettre en place une tyranie. Au contraire, des philosophes comme Platon, estime qu'un discourt (**logos**) doit chercher la vérité, même si elle est difficile à entendre. 
+
+De ce point de vue, Platon est à l'origine de toute la pensé occidentale. 
+
+Au **IV ème siècle**, Athène est confronté à la Macédoine du roi Philippe. En **-338**, les Athéniens sont battus à la bataille de Chéronée. La démocratie Athéniennes s'éffondre en **-322**.
