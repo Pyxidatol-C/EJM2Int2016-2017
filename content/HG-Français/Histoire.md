@@ -74,7 +74,7 @@ Ceux qui insultent les Dieux se sont **ostraciser**. (mis à transportation)
 #### Qui gouverne la ville?
 A Athène, l'institution principale est formée par les Magistrats:
 >10 **stratèges**: qui sont élus par l'ecclésia et dirige sur tout les affaires militaires. (tiré au sort, 1 ans par fois, sans limite fois)   
->10 **archontre**: tiré au sort parmi les citoyens, organise les fêtes religieuses.
+>10 **archonte**: tiré au sort parmi les citoyens, organise les fêtes religieuses.
 
 stratège connu: **Périclès**, 14 fois stratège.
 
@@ -86,4 +86,12 @@ Les stratèges commandent l'armée, et est un action essentiel.
 
 Pour les Athéniens, la guerre est un moment fondamental. C'est là qu'ils peuvent défendre la cité. L'organisation du conflit révèle une hiérarchie sociale. Les citoyens les plus riches financent la guerre en achetant leurs armes et en participant à l'achat des bateaux (**les tières**): les citoyens les plus riches financent a guerre. Ils sont en première ligne, et forme le cavailer. Les citoyens moins riches forment l'infantie et combatenten seconde position. Les citoyens pauvres ne combatent pas, mais vont être rameurs sur les trières. Les Athéniens ont combattu les Perses au cours des guerres médiques, et ont remporté 2 victoires: Celles de **Marathon (-490)**, et la victoire maritime de **Salamine (-480)**. Pour les Athéniens, ces victoires sont fondamentaux, car elles marquent la superiorité du système démocratique Athénien sur l'empire et la royauté perse. Le citoyen qui meurt au cjamps de bataille devient un héros. Cependant, les Athéniens vont être battu en **-404** par les Spartiates, ceux qui va marquer le décin de la démocratie.
 
-Donc les citoyens organisent et financent les **panathénés** (Ce sont des fêtes qui rendent hommage à Athéna, protectrice d'Athène). Les petites panathénés se déroulent en Juillet sur 3 jours. Elles obéissent à un ordre immuable. Le premier jour (...)
+Donc les citoyens organisent et financent les **panathénés** (Ce sont des fêtes qui rendent hommage à Athéna, protectrice d'Athène). Les petites panathénés se déroulent en Juillet sur 3 jours. Elles obéissent à un ordre immuable. Le premier jour, une **procession** avec Athéna, en statue permet d'honnorer les dieux. Le deuxième jour, une représentation théâtrale avec une trajédie rapelle aux Athéniens que leurs destins est entre les mains des dieux. Eschyle et Sophocle sont ceux qui remportaient la pluspart des concourts. Une trajédie n'est jouée qu'une fois et que dans ce cadre là. Le troisième jour, c'est un banquet offer par les plus riches des citoyens qui rassemble tout ceux qui font vivre le système démocratique. Les citoyens les plus riches financent les constructions de statue et momument à la gloire des dieux. L'argent est utilisé pour embélir la ville (construction de temple).
+
+## C) Les limites de la démocratie
+
+Il exite **3** catégorie de non-citoyens:
+
+- **Les femmes**: leurs rôle est très important au sein de la famille. Elles sont chargées de l'éducation des enfants (apprentissage des mythes). Elles sont chargées aussi de veiller à l'équilibre budjétaire de la famille. Elles ne peuvent pas avoir d'existence juridique, et sont donc sous le pouvoir d'un homme. (mari, frère, fils...)
+- **Les métèques**: Ce sont les non-Athéniens. Ils viennent d'autre région de la méditéranée, et participent à la richesse économique de la ville. Ils peuvent faire des offrandes à la ville, mais ne sont jamais citoyens. Parcontre, il peuvent payer des impôt. Ils ne peuvent pas épouser une athénien(ne). 
+- **Les esclaves**: Les esclaves sont estimés à 200m. Ils sont appelés par Aristote "**outils parlants**". Ils sont achetés par les citoyens aux marchées aux esclaves et travaillent dans les champs ou dans des mines. Ils font partie du patrimoine d'un citoyen et sont comptés dans l'héritage.

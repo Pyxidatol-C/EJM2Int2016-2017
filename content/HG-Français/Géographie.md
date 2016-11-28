@@ -176,3 +176,14 @@ La géographie du pétrole reste dominé par le Moyen-Orient avec 1/3 de la prod
 - **Géostratégie**: Adapter un type d'arme à un but de conquuête militaire.
 
 Les dangers qui portent sur les sources d'énergie concerne d'abord le pétrole. Entre 1980 et 2000, de nombreuse marée nore ont eu lieu. Ce sont de véritable catastrophes écologiques, qui portent atteinte (qui manifestent) à l'environement, surtout à la faune et à la flore. La dépollution est très longue. Les procès contre les armateurs peuvent s'étendre sur 10 à 15 ans. Il y a aussi des formes de pollutio plus restreinte (plus limité), qui sont deus aux dégages des pétroliers en haute-mer. Aujourd'hui, la demande en pétrole est de plus en plus importante, venant surtout des pays emergeants. La Chine cherche à diversifier ses fourniseurs, et elle investie beaucoup en Afrique, en particulier au Nigeria, et au Sud-Sudan. La Chine construit des routes, et participe à bâtir de nouveau quartier dans les grandes villes. Elle cherche surtout la stabilité politique des états, car des investisements comme le métro au Vénézuela coût très cher.
+
+## Chapitre 3
+L'humanité doit relever un triple défit pour l'avenir:
+
+- Assurer des approvisionnement à des populations qui augmentent rapidement
+- Améliorer l'accès à l'énergie à des populations qui en sont exclus
+- Ne pas dégrader l'environnement terrestre
+
+Aujourd'hui les stocks dans les sous sol des énergies non renouvelable sont estimés pour le pétrole à 44 ans, et pour le charbon à 160 ans. Elle représente l'aventage d'être immédiatement accéssible. Mais elles sont particulièrement polluantes.
+
+De nouvelles énergies sont utilisés en premier lieu l'énergie nucléaire. Mais, celle ci peut se révéler parfois dangereuse du fait des accidents: Tchernobyl, Avril 1986. Cette activité est liée aux années 1970 et aujourd'hui certain pays industriels ont décidé de tourner la page et d'abandoner cette source. (Allemagne, Nouvelle Zélande, Belgique, Suisse)

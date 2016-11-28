@@ -1,5 +1,5 @@
-# Sciences Économiques et Sociales
-## Chapitre 1: Entreprise et Production
+## Sciences Économiques et Sociales
+# Chapitre 1: Entreprise et Production
 * L'entreprise est une <\<organisation dont l'activité principale consiste à produire des biens et des services marchands>> .
 
 	>**organisation**: ensemble d'individus  
@@ -21,10 +21,10 @@
 				* Appli
 				* logiciels
 				* SAV
-				* icloud
+				* iCloud
 	* Google
 		* Accès à l'information  
-			-sevices:
+			-services:
 				
 				* google
 				* maps
@@ -43,7 +43,7 @@
 			
 				* pain
 				* patisserie
-				* sandvichs
+				* sandwichs
 			-services:
 				
 				* (livraison)
@@ -122,10 +122,41 @@ activité socialement organisée qui combine des facteurs de production (travail
 ### B. Les autres organisations productives
 #### 1. Les associations (voir <a href='Ch1AdministrationsPubliques.pdf'>fiche distribuée</a>)
 - Organisations qui produisent des services non marchands pour certaines catégories de ménages. 
-- Leurs ressources comprennent des coisations volontaires, des dons et des subventions
-- Ex: Les restaurents du cœur, associations sportives ...
+- Leurs ressources comprennent des cotisations volontaires, des dons et des subventions
+- Ex: Les restaurants du cœur, associations sportives ...
 
 #### 2. Les administrations publiques (voir <a href='Ch1Associations.pdf'>fiche distribuée</a>)
 - **État**, **collectivités locales** et de sécurité sociale
 - Elles produisent des services non marchands (éducation, routes ...) et redistribuent du revenu et des richesses nationales
 - Leurs ressources sont les prélèvements obligatoires (impôts et cotisations sociales)
+
+## II. Comment produire et combien produire?
+### A. Comment produire?
+#### 1. Les facteurs de production 
+
+>- **<span style="color:red">Le travail</span>**: l'ensemble des activités, rémunérées, intellectuelles et physiques, organisées et coordonnées par des hommes
+- **<span style="color:red">Le capital</span>**: ensemble des moyens de production	
+	* **<span style="color:red">fixe</span>**: ensemble des biens durables qui peuvent intervenir dans plusieurs cycles de production sans subir de transformations autres que l'usure ou l'obsolescence.  
+	* **<span style="color:red">circulant<span>**: ensemble des biens utilisés et transformés au cours du processus de production  
+
+Afin de produire, une entreprise aura besoin d'utiliser les facteurs de production. 
+
+Le travail consiste de l'ensemble de la main d'œuvre qui est employé par l'entreprise.
+
+Le capital sera lui
+
+- soit du capital fixe, c'est-à-dire l'ensemble des éléments qui ne seront ni détruits ni transformés au cours de la production  
+**ex.** *les robots*
+- soit du capital circulant, qui sera lui détruit ou transformé pendant la production  
+**ex.** *les matières premières*
+
+#### 2. Le choix de la combinaison productive
+
+<img src="" alt="Schéma">
+
+##### Remarque:
+
+- Deux facteurs sont substituables lorsque l'on peut utiliser l'un ou l'autre pour produire la même chose (exemple: un distributeur automatique de billet et une distribution de billet au guichet d'une banque). 
+- Deux facteurs sont complémentaires lorsqu'il faut utiliser l'un et l'autre pour produire (exemple: le chauffeur et la voiture d'un taxi).
+
+L'entreprise qui cherche à maximiser son profit va rechercher à réduire au maximum ses coûts de production et va donc choisir la combinaison productive la moins coûteuse. 
