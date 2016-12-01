@@ -187,3 +187,19 @@ L'humanité doit relever un triple défit pour l'avenir:
 Aujourd'hui les stocks dans les sous sol des énergies non renouvelable sont estimés pour le pétrole à 44 ans, et pour le charbon à 160 ans. Elle représente l'aventage d'être immédiatement accéssible. Mais elles sont particulièrement polluantes.
 
 De nouvelles énergies sont utilisés en premier lieu l'énergie nucléaire. Mais, celle ci peut se révéler parfois dangereuse du fait des accidents: Tchernobyl, Avril 1986. Cette activité est liée aux années 1970 et aujourd'hui certain pays industriels ont décidé de tourner la page et d'abandoner cette source. (Allemagne, Nouvelle Zélande, Belgique, Suisse)
+
+##### énergie renouvelable:
+
+- éolienne  
+- hydroélectricité  
+- géothermie  
+- solaire  
+
+Afin de développer une planète plus propre et moins polluée, certaines sources d'énergie font l'objet de recherches depuis 20 ans. Il s'agit de sources d'énergie renouvelables qui se présentent sous 4 formes différents:
+
+- **énergie éolienne** qui utilise la puissance des vents pour faire tourner les tourbines et produire l'électricité. Elle est utilisé dans le nord de l'Europe mais gêne la circulation des bâteaux en mer du nord.
+- **l'hydroélectricité**. Ce sont des barragesqui utilisent les courrants des fleuves, cela ne peut fonctionner qu'à condition d'avoir une ville à proximité.
+- **l'énergie géothermique** est puisée par les sources d'eau chauds dans les régions volcaniques. Cela reste assez marginal.
+- **l'énergie solaire**. C'est la plus dévoloppé, surtout dans les pays privilégiés de grands quantité d'ensoleillement. (Moeyn Orient et Equateur)
+
+Ces sources d'énergie 

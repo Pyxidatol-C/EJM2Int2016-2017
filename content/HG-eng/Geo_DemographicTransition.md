@@ -7,7 +7,7 @@ A model given by American demographer Warren Thompson
 ### High fluctuating
 - High birth rate
 	- children = economical asset
-	- lack education of women
+	- lack of education of women
 	- religious tradition / practice
 - High death rate
 	- lack of hygiene / health care => epidemics

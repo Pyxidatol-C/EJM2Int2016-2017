@@ -152,7 +152,7 @@ Le capital sera lui
 
 #### 2. Le choix de la combinaison productive
 
-<img src="" alt="Schéma">
+<img src="Source/ProductionSchema.png" alt="Schéma">
 
 ##### Remarque:
 
@@ -160,3 +160,10 @@ Le capital sera lui
 - Deux facteurs sont complémentaires lorsqu'il faut utiliser l'un et l'autre pour produire (exemple: le chauffeur et la voiture d'un taxi).
 
 L'entreprise qui cherche à maximiser son profit va rechercher à réduire au maximum ses coûts de production et va donc choisir la combinaison productive la moins coûteuse. 
+
+#### 3. L’efficacité de la combinaison productive
+
+Pour mesurer l’efficacité de la production, on utilise un indicateur nommé la productivité :
+
+La productivité est le rapport entre la production de biens ou de services et la quantité de facteurs de production utilisés pour produire ces biens et ces services.  
+Elle se calcule en divisant la production par l’un des facteurs de production employé pour l’obtenir.
