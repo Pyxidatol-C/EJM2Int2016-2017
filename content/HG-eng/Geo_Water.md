@@ -10,12 +10,12 @@ yes.
 		- industrialization
 		- food habits
 - Safe / sanitized water 
-	- free of disease ≠ defecate in the wild (1.2 billion)  
+	- free of disease ≠ defecating the wild (1.2 billion)  
 
 #
 
 	unequal distribution <=> environmental situation
-	                         climate change
+							 climate change
 
 
 
@@ -37,15 +37,3 @@ yes.
 | Industry    |    22 %   | 75 % |    1 %    |  75 %  |     1 %    | 46 % |  18 % |
 
 => Depends on weather / climate
-
-### Blue gold
-- acquiring water	
-	- aqueduct
-	- desalinization 
-	- aquifers
-- change of habit + agriculture 
-	- less use of water for car washing 
-	- watering for gardens / golf parks
-	- blue revolution
-	- GMO: less need of water for crops
-- conflicts caused by water > food

@@ -1,5 +1,5 @@
-`2016/09/12`
-# Histoire
+`2016/09/19`
+# Histoire 
 
 ## I. Les Européens dans le peuplement de la terre.
 
@@ -105,15 +105,3 @@ Il y a un autre problème, qui est d'ordre **philosophique** (φ). Pour les grec
 De ce point de vue, Platon est à l'origine de toute la pensé occidentale. 
 
 Au **IV ème siècle**, Athène est confronté à la Macédoine du roi Philippe. En **-338**, les Athéniens sont battus à la bataille de Chéronée. La démocratie Athéniennes s'éffondre en **-322**.
-
-`2016/12/05`
-# Citoyenneté et empire à Rome (Du I au III e siècle après J.C.)
-
-## A) La place de la cité dans l'empire romain
-### 1) L'espace romain et sa organisation
-
-Rome atteint son maximum d'extension territoriale grâce à ses conquêtes. L'empire est fixé dans ses limites au Ième siècle après l'an 0. Il couvre une superficie de **5 millions de km^2**, et totalise environ **40 millions d'habitants**. C'est un empire centré autour de la Méditerranée (**mare nostrum**). Pour les romains, la mer constitue un **espace d'échange** et d'unité centrale. Les romains considèrent que l'espace doit être délimité par une construction lisible. Ils construisent donc un mur, que l'on appelle **les limès**. Cela permet de compléter un système de frontière existante (fleuves, montagnes), et surtout de protéger l'espace conquit. On assiste pendant tout ces époques à une grande période de paix fondé sur la prospérité économique. C'est pourquoi on l'appelle **la pax romana** (la paix romaine).
-
-L'empire est organisé et divisé en **provinces**. Celle ci est administrée par le **sénat** et donc un **sénateur**. Le sénat est le gouvernement de l'empire. A Rome, l'autorité est représentée par **l’empereur**, qui est souvent un chef de guerre. Il peut intervenir dans les provinces. A l'intérieur de l'empire, les citoyens de Rome passe de 5 à 8 millions d'habitant.
-
-### 2) Les différents types de cité.
