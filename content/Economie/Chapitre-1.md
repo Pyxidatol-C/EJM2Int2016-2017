@@ -167,3 +167,30 @@ Pour mesurer l’efficacité de la production, on utilise un indicateur nommé l
 
 La productivité est le rapport entre la production de biens ou de services et la quantité de facteurs de production utilisés pour produire ces biens et ces services.  
 Elle se calcule en divisant la production par l’un des facteurs de production employé pour l’obtenir.
+
+### B. Combien produire?
+#### 1. La création de richesse
+
+
+	Valeur ajoutée = Chiffre d'Affaires - Consommation intermédiaire
+
+(`Valeur ajoutée` ≠ `bénéfice` et `valeur ajoutée` > `bénéfice`)
+
+#### 2. La rémunération du travail et du capital
+
+- `Le salaire`
+- `L'excédent brut d'exploitation` (profit)
+
+![Valeur de la production de l'entreprise](source/repart-VA.jpg)
+
+* **Amortissement** - coût annuel de l'usage du capital  
+*ex.* achat d'une machine 1 000 000 € qui sera utilisée 10 ans  
+=> coût annuel = 1 000 000 / 10 = 100 000 €
+* Bénéfice mis en réserve - vont servir à financer les investissement futurs (auto-financement)
+* Dividendes - Rémunération des actionnaires
+* Impôts sur le bénéfice
+	- taux normal: 33,33 %
+	- taux réduit: 15 %
+
+#### 3. Le bénéfice
+	Bénéfice = Chiffre d'Affaires - Coûts de production
