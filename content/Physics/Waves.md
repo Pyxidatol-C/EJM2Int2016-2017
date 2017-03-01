@@ -62,6 +62,8 @@ A graph that plots the positions over time of just 1 particle in the wave (its d
 
 ![graph](Source/graph.png)
 
+(Note: **time should be on the x-axis**, and distance on the y-axis)
+
 ## Analytical
 ### [Exercise](Source/Earthquakeactivity.pdf)
 
@@ -88,3 +90,24 @@ D<sub>p</sub> = v<sub>p</sub> * t<sub>p</sub> = 12 * 360 = **4320 km**
 -> V<sub>p</sub> = D<sub>p</sub> / t<sub>p</sub>  
 And t<sub>s</sub> - t<sub>p</sub> = the difference in times
 3. Solve equations
+
+## Application in Seismography
+![earth](Source/earth.png)
+
+### Earthquake waves
+**Primary** 
+
+- compression wave
+- both liquids + solids
+
+**Secondary**
+
+- shear / transverse waves
+- solids not liquids
+
+Shadow zones for both waves due to refraction and Earth's structure:
+
+- 100 / 140º with focus at 0º
+- S-wave shadow zone from 140 - 180º
+
+![shadow zone](Source/shadow_zone.jpg)

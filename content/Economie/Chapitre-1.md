@@ -193,4 +193,4 @@ Elle se calcule en divisant la production par l’un des facteurs de production 
 	- taux réduit: 15 %
 
 #### 3. Le bénéfice
-	Bénéfice = Chiffre d'Affaires - Coûts de production
+	Bénéfice = Chiffre d'Affaires - Coûts de production								

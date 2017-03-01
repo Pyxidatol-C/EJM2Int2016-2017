@@ -64,3 +64,4 @@ Depuis 20 ans, la **Tunisie** cherche à se développer avec le **tourisme**. Le
 > voir doc.9 p.99
 
 Au milieu des **années 80**, la Turquie a décidé de construire un **immense barrage à l'est** du pays pour développer l'**agriculture** dans la région, et **électrifier** les villages les plus pauvres. Ce projet était constitué de **22 barrages**. Seulement, **Iraq** avec de graves conséquences pour les **récoltes**. Les relations entre la **Syrie** et la **Turquie** se sont vite dégradée. Cependant, en **2009**, une solution commune a été trouvée, et les États ont signé un **accord sur le partage de l'eau**. Ce pendant, cet accord est très **fragile** et n'exclut pas **une guerre**.
+

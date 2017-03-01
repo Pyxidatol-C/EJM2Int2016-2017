@@ -148,6 +148,7 @@ relied on books (Bible, scriptures) to spread the religion
 - thinks he owes to christianity
 - a way to unite the empire
 	- He becomes the legitimate human representative / messenger of the one and supreme god  
+	- deputy of the power from above  
 	=> power
 
 **Nicene Creed**

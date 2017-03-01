@@ -249,6 +249,162 @@ So far, Uncle Peter has been an absent character. How was he been presented to t
 - what do we learn about him on pages 24, 25, 70, 75, as well as any relevant ideas.
 - He was a bomber pilot, a very dangerous job. How might this have appealed to young boys like Stephen?
 
-### Homework
-- Write a detailed response to this question + be willing to discuss at the beginning of next lesson
-- Re-read chapter 6
+
+> Little information on the character Uncle Peter has been revealed: this is shown with "His very absence was a kind of presence". The writer set up a paradox to illustrate the lack of knowledge on him, and builds up a sense of mystery at the same time. It is also this absence that led to fancy of the young boys: all they know is that he is a "bomber pilot", and that he has participated in "special missions over Germany". The job as a "bomber pilot" appeal to the young boys like Stephen, as they worship the fighters in the war. Their admiration is as well shown when they see Uncle Peter in person, as "he's stepped out of the black-and-white photograph in that silver frame". The contrast between the black-and-white and the colors highlight how Uncle Peter has profoundly impressed Stephen. Yet, little did they know that this job could involve killing of innocent people, or the danger behind this job.  
+
+> It is also inferred in the plot that Uncle Peter has a secret connection with Keith's mother. This is initially revealed with the photographs Keith and Stephen have discovered; furthermore, this suspicion is reinforced in the line "Secrets about Uncle Peter". Other allusions to this aspect can also be found. As Stephen grows more mature through the process of spying, he starts to learn about the reality behind the Close and the glory of Uncle Peter.
+
+`03/02/2017`
+
+### Class discussion: Characterization of Uncle Peter
+* worshipped - Godlike -> children worship him `p.75`
+	- religious lexical field - "sacred", "saint", "glowed" `p.25` 
+	- over-inflated view <- his "absence" in the Close
+		- never the reality -> he is absent
+		- failing to understand the reality of soldiers + naive viewpoint
+* dangerous work
+	- possibility of danger excites the children
+	- outside of their immediate world
+	- makes him a hero
+* Brings children close to the war / adventure of the war
+* Through the glorification of Uncle Peter, Stephen finds even more **perfection** in Keith and his family.
+
+### Uncle Peter's characterization
+- An abstract of worship in Auntie D's house
+- Young Stephen idealizes him and idolizes him
+
+Idealize, idolize: glorify / worship
+### Stephen's idolization of Uncle Peter
+- Young S's idolization of Uncle Peter is depicted through the way in which he observes Aunty D's house as a shrine to Uncle Peter. 
+`pp. 24-25`
+
+### Admiration of Uncle Peter
+- "No one had an absent relative who could compare to Uncle Peter" `p.25`
+- "All the children crowding around him" `p.70`
+
+### Effect?
+- From young Stephen's perspective Uncle Peter is a warm, loving father / husband
+- Has a kind and open nature and this is mirrored in his wife and baby girl
+- Uncle Peter is everything that the young Stephen aspires to be
+- This will provide a **sharp contrast** between Uncle Peter the bomber pilot and Uncle Peter the tramp (desperate, sick, broken)
+
+=> Realizing the realities is a process of growth for Stephen 
+
+- coming of age
+- story set in *summer*
+	- period of transition, liberty
+	- *summer* where he grows into adolescence -> *autumn* where he realizes things aren't what he thought they are
+
+## Chapter 5
+Discussion / comment: 
+
+- Stephen and Keith attempt to piece together the mystery of Mrs Hayward's disappearances
+- Old Stephen trying to piece together his memories of his summer and the significance in his life
+- The reader … ?
+
+-> see the transition young -> old Stephen
+
+### Chapter 5 group work questions page 31
+1.Write  a mini summary (bullet point) of the main events in chapter 5.
+
+- development of relationship with Barbara 
+- Stephen learns more about Keith's mother and started cooperating with her
+- starts to be aloof with Keith 
+
+### Effect of opening
+End of chapter 4:
+
+> I shiver. The little marks in the diary are true. The dark of the moon's coming, and it's going to be more frightening than we thought. `p.82`
+
+- foreshadowing
+- builds up suspense
+
+Start of chapter 5: 
+> Everything is as it was; and everything has changed. `p.85`
+
+- chapter of realization
+- shift in perspective from young -> old
+- pause -> suspense
+
+### A close focus on style `pp. 88-89`
+
+- sensory imagery 
+- repetition of "once again"
+- shift between memory, imagination and present reality
+- shifting tense between past and present
+- shifting narrative voice between young and old Stephen
+- highlight the impact of this discovery for young Stephen and the plot
+
+## Chapter 6
+### Tension
+- Introduces a darker side of Keith and Stephen's spying
+- We are concerned for Stephen as he ventures into the darkness, "Night - the almost forgotten time. p.113
+- Children can be reckless and lack foresight, this fuels the uncertainty at this point in the novel.
+- The moonlight
+	- moonlight - truth
+	- darkness - secret + confusion
+		- heightens the confusion
+		- presence
+	- Full moon - new cycle - gives a sense of unease
+	- -> value of x
+- The audience is pulled into Stephen's vision of darkness; we see nothing, we feel our way along with Stephen as he goes on his mission p. 116
+	- Young Stephen, present tense
+- Stephen's eyesight is limited so he has to rely on other senses- makes the experience more frightening
+
+### Introduction
+- Discuss the following statement:
+
+_This chapter marks a shift in Stephen's character._
+
+Do you agree? Disagree? Thoughts?
+
+- Things get serious - child's play to actual spying at night
+- Stephen starts to take decisions without Keith, and comes to realizations
+- p.125 _"Two little babies together."_  
+=> realization that Keith is as immature as him, and that Stephen can be stronger than Keith and that Keith relies on Stephen (p.125 _"I realise that he needs me to accompany him."_
+- yet Stephen is still under the influence of Keith
+
+### Stephen
+- Almost entirely told from young Stephen's POW in the present tense.
+- The fact that Stephen ventures ou in the night on his own, suggests a level of assertiveness and a departure from the Stephen the follower.
+- Although he still feels guilty about keeping the secrets (the visits form Barbara Birrell and Keith's mother), he takes the decision to go back to the tunnel on his own, demonstrating a sense of _emerging autonomy_. 
+- p. 125 "So there we stand ..."
+- p. 131 "So I'm taking the lead ..." 
+- p. 132 "And suddenly we both run ..." 
+
+### Theme: Bullying
+- *"Bullying of course is one of the themes of the book." -Michael Frayn*
+- After discussion, write a response to the following:
+
+This chapter explores the theme of bullying and abuse of power from a number of **different angles** and in relation to **different characters**. Discuss.
+
+"Subordinate" - master & slave
+
+- based on an unequal-power relation
+- Stephen and Keith at tramp's hideout = bullying
+	- leadership, independence and power -> Stephen: bullied => the one carrying out bullying
+	
+### Bullying Continued
+- Stephen feels superior for the first time and takes advantage of this
+- Stephen's behavior - hostile, violent, aggressive - WHY? YOUR THOUGHTS? p. 131
+- Keith and Stephen, p.122, 123
+- Mr and Mrs Haywood, p. 132, 133
+
+# English Homework - language
+
+1. Read / highlight the feedback for the directed writing task
+2. Read the sample response for descriptive writing and use the marking criteria to give it a mark.
+
+PAGE 38
+
+Complete 'Into the tunnel - close language work .' Choose either of the passages (passage one or passage 2). Answer the following question: 
+
+How does Frayn create tension at this moment in the novel? Support  your ideas with details and references from the text. 
+
+Treat this task as a textual analysis. 
+
+	Introduction 
+	- State your line of argument 
+		+ part 1
+		+ part 2
+		+ part 3
