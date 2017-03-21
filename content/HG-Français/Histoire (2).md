@@ -1,4 +1,9 @@
-## Histoire: citoyenneté et empire à Rome (Du I au III e siècle après J.C.)
+<h1 style="background-color:darkred; font-size: 150%; color: white; text-align: center; font-family: verdana"> 
+
+II.Citoyenneté et empire à Rome (Du I au IIIe siècle après J.C.)
+
+</h1>
+
 
 ### A. La place de la cité dans l'empire romain
 #### 1) L'espace romain et sa organisation
@@ -35,5 +40,13 @@ Un citoyen romain est un **homme libre**, né de **parent citoyens, légalement 
 	Ce sont des **hommes libres** qui habitent dans l'empire, mais n'ont **pas accès aux droits romains**, et vivent donc sous les lois des autres cités.
 - **esclaves**:  
 	Leur nombre est évalué entre **10 et 20% d'un cité**. Mais, contrairement aux Greques, les esclaves peuvent **obtenir la liberté**. Ils sont onc dit: **affranchis**. (**Franc = libre**). Quand ils sont affranchit, ils deviennent **citoyens romains**. Leurs enfants sont libres, et beaucoups font des carrières de magistrat.
+	
+![](schema rome.JPG)
 
 ### B. La voie vers l'intégration
+#### 1) Les tables claudiennes
+**Claude** est **empereur** de Rome de **41 à 54**. Il est né à **Lyon** et a donc des attaches gauloises. En **47**, il fait un **discourt** qui est prononcé devant les sénateurs romains. ce discours a été retrouvé à **Lyon**. Il est gravé sur une table de **bronze** dont on a retrouvé qu'un **morceau**. Dans ce discours, Claude propose aux **Gaulois** vaincus une **place dans la culture et la citoyenneté romaine**. Tout d'abord, les **sénateurs** étaient **contre**. Mais, Claude a réussi à les convincre que plus on intègre les peuples, et plus l'armée romaine est puissante. C'est un moyen de maintenir "la pax romana".
+
+#### 2) L'extension de la citoyenneté
+**L'empereur Carcalla** en **212** publie un **édit** (loi) qui accorde la **citoyenneté** à **tout les hommes libres** de la politique du «**droit de cité**» (extension de la citoyenneté romaine) n'a cessé de s'étendre. De plus, cela permet aux **nouveaux citoyens d'adorer les dieux romains** et donc **d'unifier le peuple**. De plus, cela permet aussi de faire entrer davantage **l'impot**. Enfin, Caracalla etait **malade**, et avait **promis aux dieux** d'accorder la citoyenneté si jamais il retrouve la santé.
+

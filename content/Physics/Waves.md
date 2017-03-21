@@ -1,5 +1,20 @@
-# Waves
+<style>
+h1 {
+	font-family: Times;
+	color: navy
+}
+#title {
+	background-color: MidnightBlue;
+	color: AliceBlue;
+	text-align: center
+}
+<!--Do whatever you like, but be consistent-->
+<!--re: Ik>
+</style>
 
+<h1 id=title>
+Waves
+</h1>
 A wave transfers energy over-space via the oscillation of a medium. It can be characterized by
 
 - amplitude (m)

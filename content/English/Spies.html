@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>Spies</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #ccc;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #999;
+}
+
+.token.punctuation {
+	color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+	color: #e2777a;
+}
+
+.token.function-name {
+	color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+	color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+	color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+	color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.inserted {
+	color: green;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 style="color:LightYellow;font-family:Luminari-Regular;font-size:32pt;background-color:Lightgreen;text-align:center">
+    Spies
+</h1>
+
+<h2 id="toc_0">Chapter 1</h2>
+
+<h3 id="toc_1">Group 1 - The narrator</h3>
+
+<blockquote>
+<p>Is this a first or third person narrative? Does the narrator seem to be a character in the story? What do we find out about the narrator? What kind of voice does he have? Does he speak in the same tense throughout? Is it a voice of certainty? Is he a reliable narrator, one whose viewpoint you feel you can trust? Is he an all-knowing narrator, who stands above the action? Does it vary at all? </p>
+</blockquote>
+
+<p>first-person narrative; a character in the story.</p>
+
+<p>narrator =&gt; old: childhood bothers him</p>
+
+<p>speaks in present tense and past tense when referring to childhood</p>
+
+<p>uncertain voice; asks many questions.</p>
+
+<h3 id="toc_2">Group 2 - Oppositions, contrasts, paradoxes, oxymorons</h3>
+
+<blockquote>
+<p>The chapter sets up all kinds of conflicting feelings. What are they? How does the writer use contrast, oppositions and oxymorons to create the narrator&rsquo;s disturbing, contradictory feelings? 
+(Note: an oxymoron is the putting together of two seemingly opposite things, for instance the phrase &lsquo;bittersweet&rsquo; is an oxymoron.</p>
+</blockquote>
+
+<ul>
+<li><u>sweet reek</u> (p.3): oxymoron; the smell is symbolic</li>
+<li><u>Everything is as it was, I discover when I reach my destination, and everything has changed</u> (p.9): contradiction</li>
+</ul>
+
+<p>contradictory feelings as of childhood; hesitant on whether to go back for recollecting childhood memories</p>
+
+<p>=&gt; disturbing, contradictory feelings and uncertainty</p>
+
+<h3 id="toc_3">Group 3 - Questions</h3>
+
+<blockquote>
+<p>The first chapter if full of questions. What are these? Why are there so many? Are there any answers? What kind of effect does all this questioning have on the reader? What questions is the reader left with at the end of this chapter? </p>
+</blockquote>
+
+<p>Questions =&gt; narrator trying to think of the past: i.e. the smell of <u>liguster</u>, his connections to it, his past, etc.  </p>
+
+<p>The multitude of questions illustrates the remoteness of the past, and the curiosity of the narrator.  </p>
+
+<p>Few questions of the many posed are answered, and hints are given: among them the german name of privet, <u>liguster</u>, is revealed.  </p>
+
+<p>These questions intrigue the readers in the way that they feel connected to the narrator, since both are curious and trying to find out the answers to these questions. </p>
+
+<p>The readers are left with equally many question: i.e. what is <u>liguster</u> in english? What language is the word in? What does <u>liguster</u> has to do with his past? Why is Keith&rsquo;s mother mentioned in this manner (<u>weeping</u> p.5)? What are the six words? etc.</p>
+
+<h3 id="toc_4">Group 4 - Drawing the reader in</h3>
+
+<blockquote>
+<p>Is this a good opening chapter for a novel? Does it draw the reader in and, if so, how? How does it go and giving the reader a sense of what kind of novel this is going to be? </p>
+</blockquote>
+
+<p>The opening chapter is fragmented =&gt; leaves mystery =&gt; draws the reader in + provides a good transition to the next chapter</p>
+
+<p>A lot of attention is drawn to the german word <u>liguster</u> =&gt; hint of something to do with the major plot</p>
+
+<p>Use of flashback + sensory imagery<br>
++ analogy: <u>privet</u> of his past to <u>liguster</u></p>
+
+<h3 id="toc_5">Group 5 - Themes</h3>
+
+<blockquote>
+<p>Are there any early indications in the first chapter of the kinds of themes that are going to be raised in the novel? What are they and how are they introduced? </p>
+</blockquote>
+
+<p>Major themes: past, childhood, nostalgia, etc. =&gt; adult view of childhood<br>
+(mixed feeling towards the past; memory and recollection / <strong>selective memory</strong>)</p>
+
+<p>Significant characters:<br>
+Keith&rsquo;s mother: <u>laughing</u>, then suddenly <u>weeping</u> (p 5)<br>
+Keith: six words </p>
+
+<h2 id="toc_6">Chapter 2</h2>
+
+<h3 id="toc_7">The Narrative Voice: <span style=color:blue>Shifting</span> narrative <span style=color:blue>voice</span> and point of <span style=color:blue>view</span></h3>
+
+<p><u>Everything is as it was, I discover when I reach my destination, and everything  has changed.</u> (Page 9)</p>
+
+<p>contradiction =&gt; reflecting upon the past and comparing with present</p>
+
+<p>The narrative voice: </p>
+
+<ul>
+<li>Old man first person narrator; uses present tense to tell the story of what he is doing now. (i.e. <u>I walk slowly back down the street</u> p.29)</li>
+<li>Old man first person narrator re-constructing his memories of childhood; uses the third person to refer to his childhood self; shifts between past and present tense. (i.e. <u>as I watch him now</u> p.12; <u>Stephen&#39;s already crossing over the road</u> p.13)</li>
+<li>Stephen as a child uses first person and present tense to tell the story of his childhood; includes more dialogue. (i.e. <u>We&rsquo;re socially colour-coded for ease of reference</u> p.15)</li>
+</ul>
+
+<p>Shifts in narrative voice<br>
+=&gt; The reference to his past self using third person shows the <strong>detachment</strong> of the narrator from his childhood: we are even given the impression that he is shameful of his past. </p>
+
+<p>=&gt; shows the confusion of the narrator</p>
+
+<p>=&gt; At the start of the book, the old man narrator is dominant; then through the transition of referring to his childhood self using the third person, the child Stephen gradually becomes dominant. </p>
+
+<p>=&gt; dominance of child Stephen as narrator shows the narrator&rsquo;s emersion into his childhood memories. </p>
+
+<p>=&gt; Mix of perspectives: i.e. <u>I can hear [&hellip;] No wait. I&rsquo;ve got that wrong</u> p. 31 =&gt; recollection of the past</p>
+
+<h2 id="toc_8">Revision: Chapters 1 and 2</h2>
+
+<h3 id="toc_9"><strong>Themes / Ideas:</strong></h3>
+
+<ul>
+<li>The past</li>
+<li>Childhood memories</li>
+<li>Perception; how we perceive our world and our past</li>
+<li>Child&rsquo;s view</li>
+</ul>
+
+<h3 id="toc_10">Stephen&rsquo;s &lsquo;Proustian Moment&rsquo;</h3>
+
+<ul>
+<li>&lsquo;A la recherche du Temps Perdu&rsquo; - Marcel Proust</li>
+<li>Recalls an elderly narrator recalling his early life. Eats a madeleine dipped in a tea and memories of his childhood flood back.</li>
+</ul>
+
+<p>= an involuntary memory propelled by a familiar sense experience</p>
+
+<p>Old Stephen - Privet hedge</p>
+
+<h3 id="toc_11">Structure</h3>
+
+<ul>
+<li><strong>Chapter 1</strong>:
+
+<ul>
+<li>works like a prologue</li>
+<li>Has clues to the meaning of memories</li>
+</ul></li>
+</ul>
+
+<p><em><q>Liguster</q></em> = German for Privet p. 4</p>
+
+<ul>
+<li>Our sense of plot relies on his holding back from explanation</li>
+</ul>
+
+<h3 id="toc_12">Narrative Viewpoint and Shifts</h3>
+
+<ul>
+<li>There are a wide variety of narrative styles and shifts</li>
+<li>These are fitting to the role of memory and imagination</li>
+</ul>
+
+<p>Example: <code>Third Person</code></p>
+
+<ul>
+<li>Disconnects the narrator from the young Stephen</li>
+<li>Allows a clear sense of retrosepct</li>
+</ul>
+
+<blockquote>
+<p><q>Stephen Wheatly &hellip; Or just plain Stephen &hellip; on his school reports S.J Wheatly, in the classroom or the playground just plain Wheatly. Strange names. None of them seems quite to fit him as I watch him now.</q> <code>p. 12</code></p>
+</blockquote>
+
+<p>Example: <code>First Person</code></p>
+
+<blockquote>
+<p><q>I have private reservations about the spelling, but I keep them to myself, as I do all other small occasional observations I have about his authority</q> <code>p.40</code></p>
+</blockquote>
+
+<h3 id="toc_13">The Present Tense</h3>
+
+<ul>
+<li>The present tense to narrate his childhood experiences, helping him to inhabit the consciousness of himself as a boy.</li>
+<li>Allows the reader to step into the shoes of Stephen and follow along as he remembers his past.</li>
+</ul>
+
+<h3 id="toc_14">An Unreliable Narrator?</h3>
+
+<ul>
+<li><em><q>Perhaps I&rsquo;m the only one who still remembers. Or half-remembers. Glimpses of different things flash into my mind &hellip;</q></em> <code>p. 5</code><br></li>
+<li><em><q>No, wait. I&rsquo;ve got that wrong</q></em> <code>p. 31</code></li>
+<li><em><q>Where did the policeman come in the story?</q></em> <code>p.32</code></li>
+<li><em>:Or is memory being overwritten by hindsight once more?&ldquo;</em> <code>p. 33</code></li>
+</ul>
+
+<p><strong>Definition</strong>: When the person telling the story does not know all the facts, does not remember all the facts or is concealing some of the facts, either from themselves or the reader, they are known as an unreliable narrator.</p>
+
+<p><strong>Question</strong>: What is the effect of being an unreliable narrator? Is he an unreliable narrator in both his forms? Can this be linked to any themes in the novel? </p>
+
+<p><em>As an old man:</em> difficult to get into memories<br>
+<em>As a young boy:</em> naive + exaggeration =&gt; don&rsquo;t see things as they are</p>
+
+<h3 id="toc_15">Writing Activity</h3>
+
+<p><strong>Read from <q>Keith&rsquo;s father &hellip; UP UNTIL &hellip; non-existent you can&rsquo;t</q> page 22</strong></p>
+
+<p><strong>Directions:</strong> after reading the above paragraph, determine the effect of the idea that the writer is trying to present to the reader. After select four words/phrases from the paragraph that validate this idea. Lastly, write a short paragraph below below where you will put your steps together.  </p>
+
+<p>When you are finished, re-read the description of Stephen&rsquo;s father on pages 26-27 and comment on how the two men are different.</p>
+
+<blockquote>
+<p>The writer creates a unsocial, dominant and frightening portrait of Keith&rsquo;s father in this paragraph. His unsocial characteristic can be perceived through his <q>quick and dry and impatient</q> words. With the adjective <q>dry</q> referring to lack of care of others when he speaks, the three adjectives connected together using <q>and</q> reveals his inability of communication with others. The unsocial aspect of Keith&rsquo;s father is also shown as Stephen thinks he is <q>non-existent</q>. Contrary to many parents who welcome visiting kids, Keith&rsquo;s father ignores Stephen. At the same time, is dominance over Keith and Stephen is revealed with the <q>imperative overtones</q> he uses when addressing to his son, Keith. The adjective <q>imperative</q> makes one think of orders, and reveals the cold and forcible way Keith&rsquo;s father treats the others. In addition, we can how he is a fearsome character as Stephen becomes <q>too frightened</q> when he wants to talk to Keith&rsquo;s father. </p>
+</blockquote>
+
+<p>Characteristics of Keith&rsquo;s father:</p>
+
+<ul>
+<li>authoritative</li>
+<li>violent</li>
+<li>intimidating </li>
+</ul>
+
+<h2 id="toc_16">Chapter 3</h2>
+
+<h3 id="toc_17">Introductory Activity</h3>
+
+<ul>
+<li>Individually, write a list of most important things that happen in chapter 3.</li>
+<li>When instructed, share with your group.</li>
+</ul>
+
+<p>Privet, dynamics;<br>
+a great sense of inferiority of Stephen to Keith</p>
+
+<h3 id="toc_18">Activity</h3>
+
+<ol>
+<li>Read from page 45, <q>I look&hellip;</q> until the end of page 47.</li>
+<li>What is the significance of the photos that Stephen notices? What do we learn about other character from his observations?</li>
+</ol>
+
+<p>photos =&gt; Keith&rsquo;s mother is having an unhappy marriage with Keith&rsquo;s father, foreshadows future events<br>
+however, young Stephen does not notice this.</p>
+
+<h3 id="toc_19">The photographs <code>p. 45-47</code></h3>
+
+<ul>
+<li>Shows the divide between Keith&rsquo;s parents</li>
+<li>Shows Uncle Peter as a playful character in the middle of the sisters</li>
+<li>Gives small glimpses into the past lives and information on their contrasting characters</li>
+<li>Gives an impression that these photos are spying back at him, echoing the fact that the boys are spying on Mrs Hayward</li>
+<li><p>Mr Hayward, never actually mentioned in the photos:</p>
+
+<blockquote>
+<p><q>Lifeless clipped grey hair and ironic smile</q> <code>p. 47</code></p>
+
+<p><q>Uncle Peter lounging boyishly between them</q> <code>p. 47</code></p>
+</blockquote></li>
+</ul>
+
+<h2 id="toc_20">Chapter 4</h2>
+
+<h3 id="toc_21">Context</h3>
+
+<ul>
+<li>We know that many of the events that take place in the novel happen during WWII as there are explicit references to it.</li>
+<li>Looking at the chapters we have covered so far, find as many references as you can to WWII</li>
+</ul>
+
+<p>References to WWII:</p>
+
+<ul>
+<li><q>The Duration</q> <code>p. 21</code></li>
+<li>Obsession with finding a German spy</li>
+<li>Keith&rsquo;s dad&rsquo;s car:<br>
+<q>&hellip; maintained in constant readiness for the end of the war, when there would be petrol again &hellip;</q> </li>
+<li> <code>p.41</code></li>
+<li> <q>Stray German incendiary bomb</q> <code>p. 30</code></li>
+</ul>
+
+<h3 id="toc_22"><em>Hope and Glory</em></h3>
+
+<p>Read the following extract and mark the language which gives a sense of the boy&rsquo;s adventure. How is this related to WWII. </p>
+
+<p><code>p. 30</code>, <code>p.52</code></p>
+
+<h3 id="toc_23">Discussion Question</h3>
+
+<p>Look at your map of the close, compare with the person next to you.</p>
+
+<p><em>In what ways is the setting and layout significant to the themes, as well as the plot of Spies?</em></p>
+
+<p>The close:</p>
+
+<ul>
+<li>round (the limit of their world view)</li>
+<li>where they are little boys</li>
+<li>* The fact that the close is removed from the very apparent / disturbing effects of war allows the boy to imagine - they are removed</li>
+<li>* Awakening in Stephen
+
+<ul>
+<li><q>I realise I&rsquo;m tired of pretending to believe all the things Keith tells me. I&rsquo;m sick of being bossed around all the time.</q> <code>p. 68</code><br></li>
+</ul></li>
+<li>naïvety, narrow-mindedness
+
+<ul>
+<li>represents his childhood</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_24">Chapter 4</h3>
+
+<ul>
+<li>Stephen being bullied</li>
+</ul>
+
+<p>Question: What impression of S&rsquo;s father do you get in this chapter? </p>
+
+<p>S&rsquo;s father:</p>
+
+<ul>
+<li>caring:<br>
+<q>On and on he goes, in his mild, careful way</q> <code>p. 64</code></li>
+</ul>
+
+<h3 id="toc_25">Stephen&rsquo;s Dad - A German Spy</h3>
+
+<p><code>p. 62-63</code></p>
+
+<ul>
+<li>Read <q>My father wants to know &hellip; to the school</q> <code>p. 64</code></li>
+</ul>
+
+<p>What is a &lsquo;Sheeny&rsquo; and how is this significant to the novel?<br>
+<strong>sheeny</strong> -&gt; jew</p>
+
+<ul>
+<li>Read <q>What I want to know &hellip; I aren&rsquo;t allowed to overhear.</q> <code>p.64/65</code></li>
+<li>&quot;My father is a German spy, too.&lsquo; <code>p.68</code></li>
+</ul>
+
+<p>What is the irony here?</p>
+
+<p>Keith&rsquo;s response: <q>dismissive amusement</q> <code>p. 68</code><br>
+=&gt; reveals Keith&rsquo;s awful character: ignoring Stephen even though he has a legitimate reason</p>
+
+<h3 id="toc_26">Uncle Peter</h3>
+
+<p><q>His very absence was a kind of presence</q> <code>p. 25</code><br>
+=&gt; paradox (<em><q>Everything is as it was, and everything has changed.</q></em>)</p>
+
+<p>So far, Uncle Peter has been an absent character. How was he been presented to the reader so far?</p>
+
+<p><strong>Consider</strong>:</p>
+
+<ul>
+<li>what do we learn about him on pages 24, 25, 70, 75, as well as any relevant ideas.</li>
+<li>He was a bomber pilot, a very dangerous job. How might this have appealed to young boys like Stephen?</li>
+</ul>
+
+<blockquote>
+<p>Little information on the character Uncle Peter has been revealed: this is shown with <q>His very absence was a kind of presence</q>. The writer set up a paradox to illustrate the lack of knowledge on him, and builds up a sense of mystery at the same time. It is also this absence that led to fancy of the young boys: all they know is that he is a <q>bomber pilot</q>, and that he has participated in <q>special missions over Germany</q>. The job as a <q>bomber pilot</q> appeal to the young boys like Stephen, as they worship the fighters in the war. Their admiration is as well shown when they see Uncle Peter in person, as <q>he&rsquo;s stepped out of the black-and-white photograph in that silver frame</q>. The contrast between the black-and-white and the colors highlight how Uncle Peter has profoundly impressed Stephen. Yet, little did they know that this job could involve killing of innocent people, or the danger behind this job.  </p>
+
+<p>It is also inferred in the plot that Uncle Peter has a secret connection with Keith&rsquo;s mother. This is initially revealed with the photographs Keith and Stephen have discovered; furthermore, this suspicion is reinforced in the line <q>Secrets about Uncle Peter</q>. Other allusions to this aspect can also be found. As Stephen grows more mature through the process of spying, he starts to learn about the reality behind the Close and the glory of Uncle Peter.</p>
+</blockquote>
+
+<p><code>03/02/2017</code></p>
+
+<h3 id="toc_27">Class discussion: Characterization of Uncle Peter</h3>
+
+<ul>
+<li>worshipped - Godlike -&gt; children worship him <code>p.75</code>
+
+<ul>
+<li>religious lexical field - <q>sacred</q>, <q>saint</q>, <q>glowed</q> <code>p.25</code> </li>
+<li>over-inflated view &lt;- his <q>absence</q> in the Close
+
+<ul>
+<li>never the reality -&gt; he is absent</li>
+<li>failing to understand the reality of soldiers + naive viewpoint</li>
+</ul></li>
+</ul></li>
+<li>dangerous work
+
+<ul>
+<li>possibility of danger excites the children</li>
+<li>outside of their immediate world</li>
+<li>makes him a hero</li>
+</ul></li>
+<li>Brings children close to the war / adventure of the war</li>
+<li>Through the glorification of Uncle Peter, Stephen finds even more <strong>perfection</strong> in Keith and his family.</li>
+</ul>
+
+<h3 id="toc_28">Uncle Peter&rsquo;s characterization</h3>
+
+<ul>
+<li>An abstract of worship in Auntie D&rsquo;s house</li>
+<li>Young Stephen idealizes him and idolizes him</li>
+</ul>
+
+<p>Idealize, idolize: glorify / worship</p>
+
+<h3 id="toc_29">Stephen&rsquo;s idolization of Uncle Peter</h3>
+
+<ul>
+<li>Young S&rsquo;s idolization of Uncle Peter is depicted through the way in which he observes Aunty D&rsquo;s house as a shrine to Uncle Peter. 
+<code>pp. 24-25</code></li>
+</ul>
+
+<h3 id="toc_30">Admiration of Uncle Peter</h3>
+
+<ul>
+<li><q>No one had an absent relative who could compare to Uncle Peter</q> <code>p.25</code></li>
+<li><q>All the children crowding around him</q> <code>p.70</code></li>
+</ul>
+
+<h3 id="toc_31">Effect?</h3>
+
+<ul>
+<li>From young Stephen&rsquo;s perspective Uncle Peter is a warm, loving father / husband</li>
+<li>Has a kind and open nature and this is mirrored in his wife and baby girl</li>
+<li>Uncle Peter is everything that the young Stephen aspires to be</li>
+<li>This will provide a <strong>sharp contrast</strong> between Uncle Peter the bomber pilot and Uncle Peter the tramp (desperate, sick, broken)</li>
+</ul>
+
+<p>=&gt; Realizing the realities is a process of growth for Stephen </p>
+
+<ul>
+<li>coming of age</li>
+<li>story set in <em>summer</em>
+
+<ul>
+<li>period of transition, liberty</li>
+<li><em>summer</em> where he grows into adolescence -&gt; <em>autumn</em> where he realizes things aren&rsquo;t what he thought they are</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_32">Chapter 5</h2>
+
+<p>Discussion / comment: </p>
+
+<ul>
+<li>Stephen and Keith attempt to piece together the mystery of Mrs Hayward&rsquo;s disappearances</li>
+<li>Old Stephen trying to piece together his memories of his summer and the significance in his life</li>
+<li>The reader … ?</li>
+</ul>
+
+<p>-&gt; see the transition young -&gt; old Stephen</p>
+
+<h3 id="toc_33">Chapter 5 group work questions page 31</h3>
+
+<p>1.Write  a mini summary (bullet point) of the main events in chapter 5.</p>
+
+<ul>
+<li>development of relationship with Barbara </li>
+<li>Stephen learns more about Keith&rsquo;s mother and started cooperating with her</li>
+<li>starts to be aloof with Keith </li>
+</ul>
+
+<h3 id="toc_34">Effect of opening</h3>
+
+<p>End of chapter 4:</p>
+
+<blockquote>
+<p>I shiver. The little marks in the diary are true. The dark of the moon&rsquo;s coming, and it&rsquo;s going to be more frightening than we thought. <code>p.82</code></p>
+</blockquote>
+
+<ul>
+<li>foreshadowing</li>
+<li>builds up suspense</li>
+</ul>
+
+<p>Start of chapter 5: </p>
+
+<blockquote>
+<p>Everything is as it was; and everything has changed. <code>p.85</code></p>
+</blockquote>
+
+<ul>
+<li>chapter of realization</li>
+<li>shift in perspective from young -&gt; old</li>
+<li>pause -&gt; suspense</li>
+</ul>
+
+<h3 id="toc_35">A close focus on style <code>pp. 88-89</code></h3>
+
+<ul>
+<li>sensory imagery </li>
+<li>repetition of <q>once again</q></li>
+<li>shift between memory, imagination and present reality</li>
+<li>shifting tense between past and present</li>
+<li>shifting narrative voice between young and old Stephen</li>
+<li>highlight the impact of this discovery for young Stephen and the plot</li>
+</ul>
+
+<h2 id="toc_36">Chapter 6</h2>
+
+<h3 id="toc_37">Tension</h3>
+
+<ul>
+<li>Introduces a darker side of Keith and Stephen&rsquo;s spying</li>
+<li>We are concerned for Stephen as he ventures into the darkness, &quot;Night - the almost forgotten time. p.113</li>
+<li>Children can be reckless and lack foresight, this fuels the uncertainty at this point in the novel.</li>
+<li>The moonlight
+
+<ul>
+<li>moonlight - truth</li>
+<li>darkness - secret + confusion
+
+<ul>
+<li>heightens the confusion</li>
+<li>presence</li>
+</ul></li>
+<li>Full moon - new cycle - gives a sense of unease</li>
+<li>-&gt; value of x</li>
+</ul></li>
+<li>The audience is pulled into Stephen&rsquo;s vision of darkness; we see nothing, we feel our way along with Stephen as he goes on his mission p. 116
+
+<ul>
+<li>Young Stephen, present tense</li>
+</ul></li>
+<li>Stephen&rsquo;s eyesight is limited so he has to rely on other senses- makes the experience more frightening</li>
+</ul>
+
+<h3 id="toc_38">Introduction</h3>
+
+<ul>
+<li>Discuss the following statement:</li>
+</ul>
+
+<p><u>This chapter marks a shift in Stephen&rsquo;s character.</u></p>
+
+<p>Do you agree? Disagree? Thoughts?</p>
+
+<ul>
+<li>Things get serious - child&rsquo;s play to actual spying at night</li>
+<li>Stephen starts to take decisions without Keith, and comes to realizations</li>
+<li>p.125 <u><q>Two little babies together.</q></u><br>
+=&gt; realization that Keith is as immature as him, and that Stephen can be stronger than Keith and that Keith relies on Stephen (p.125 <u><q>I realise that he needs me to accompany him.</q></u></li>
+<li>yet Stephen is still under the influence of Keith</li>
+</ul>
+
+<h3 id="toc_39">Stephen</h3>
+
+<ul>
+<li>Almost entirely told from young Stephen&rsquo;s POW in the present tense.</li>
+<li>The fact that Stephen ventures ou in the night on his own, suggests a level of assertiveness and a departure from the Stephen the follower.</li>
+<li>Although he still feels guilty about keeping the secrets (the visits form Barbara Birrell and Keith&rsquo;s mother), he takes the decision to go back to the tunnel on his own, demonstrating a sense of <u>emerging autonomy</u>. </li>
+<li>p. 125 <q>So there we stand &hellip;</q></li>
+<li>p. 131 <q>So I&rsquo;m taking the lead &hellip;</q> </li>
+<li>p. 132 <q>And suddenly we both run &hellip;</q> </li>
+</ul>
+
+<h3 id="toc_40">Theme: Bullying</h3>
+
+<ul>
+<li><em><q>Bullying of course is one of the themes of the book.</q> -Michael Frayn</em></li>
+<li>After discussion, write a response to the following:</li>
+</ul>
+
+<p>This chapter explores the theme of bullying and abuse of power from a number of <strong>different angles</strong> and in relation to <strong>different characters</strong>. Discuss.</p>
+
+<p><q>Subordinate</q> - master &amp; slave</p>
+
+<ul>
+<li>based on an unequal-power relation</li>
+<li>Stephen and Keith at tramp&rsquo;s hideout = bullying
+
+<ul>
+<li>leadership, independence and power -&gt; Stephen: bullied =&gt; the one carrying out bullying</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_41">Bullying Continued</h3>
+
+<ul>
+<li>Stephen feels superior for the first time and takes advantage of this</li>
+<li>Stephen&rsquo;s behavior - hostile, violent, aggressive - WHY? YOUR THOUGHTS? p. 131</li>
+<li>Keith and Stephen, p.122, 123</li>
+<li>Mr and Mrs Hayward, p. 132, 133</li>
+</ul>
+
+<h1 id="toc_42">English Homework - language</h1>
+
+<ol>
+<li>Read / highlight the feedback for the directed writing task</li>
+<li>Read the sample response for descriptive writing and use the marking criteria to give it a mark.</li>
+</ol>
+
+<p>PAGE 38</p>
+
+<p>Complete &#39;Into the tunnel - close language work .&rsquo; Choose either of the passages (passage one or passage 2). Answer the following question: </p>
+
+<p>How does Frayn create tension at this moment in the novel? Support  your ideas with details and references from the text. </p>
+
+<p>Treat this task as a textual analysis. </p>
+
+<div><pre><code class="language-none">Introduction 
+- State your line of argument 
+    + part 1
+    + part 2
+    + part 3</code></pre></div>
+
+<h2 id="toc_43">Chapter 7-8</h2>
+
+<h3 id="toc_44">Summary Points Chapter 7</h3>
+
+<ul>
+<li>old Stephen - reflecting on events of chapter 6</li>
+<li>Looking at the young boy who currently lives at the Close</li>
+<li>Starts to doubt to suspicions
+
+<ul>
+<li>is starting to grow up</li>
+</ul></li>
+<li>S hopes that things will return normal</li>
+<li>Tramp - German spy</li>
+<li>Thermos - caning incident</li>
+<li>Stephen goes to find the mother</li>
+<li><strong>perspective</strong></li>
+</ul>
+
+<p>3 important ideas:</p>
+
+<ul>
+<li>Stephen increasingly isolated</li>
+<li>A shift from childhood game to sinister reality</li>
+<li>A shift in focus from Stephen and Keith to Stephen and Mrs Hayward</li>
+</ul>
+
+<h3 id="toc_45">Analysis</h3>
+
+<p>Pages 137-141</p>
+
+<ul>
+<li>The chapter begins by the narration of old Stephen. From page 142, returns to young Stephen 1st person, present tense. EFFECT</li>
+<li>Why does Frayn move back and forth between the older narrator watching the boy in the house and Stephen&rsquo;s feelings and thoughts? EFFECT
+
+<ul>
+<li>reflects on his past actions and create a more pertinent impression in the readers&#39; mind</li>
+</ul></li>
+<li>What ideas does Frayn raise in this first section? EFFECT</li>
+</ul>
+
+<h3 id="toc_46">Stephen</h3>
+
+<ul>
+<li>There is no turning back, the &lsquo;game&rsquo; has become very real</li>
+<li><strong><q>That he had betrayed &hellip; the same deep unease.</q></strong> <code>p. 139</code>
+<strong>- <q>What he wanted &hellip; both their head.</q></strong> <code>p. 141</code></li>
+<li><strong><q>Yes, everything&rsquo;s back to as it was.</q></strong> <code>p. 142</code></li>
+<li><strong><q>Everything&rsquo;s back to normal &hellip;</q>.</strong> <code>p.143</code> -&gt; irony</li>
+</ul>
+
+<h3 id="toc_47">Keith</h3>
+
+<ul>
+<li><strong>caning incident</strong> = insight into what really goes on inside the Hayward&rsquo;s house + new insight into Keith&rsquo;s character and behavior</li>
+<li>Stephen&rsquo;s idealization of the Hayward&rsquo;s = far from the truth</li>
+</ul>
+
+<h4 id="toc_48">Changing perspectives of Keith: pp. 144-148</h4>
+
+<ul>
+<li>He is <em>defenseless</em> against father - a striking contrast with the leading role he takes with Stephen</li>
+<li>Even though Keith is telling the truth, his father won&rsquo;t believe him: <strong><q>Don&rsquo;t be a blithering idiot.</q></strong> <code>p. 145</code></li>
+<li>We become aware that physical abuse is a regular occurrence <strong><q>You know what you&rsquo;re going to get, Old Bean.</q></strong> <code>p. 145</code></li>
+<li>We don&rsquo;t hear anything from the house, Stephen doesn&rsquo;t witness the caning. We are left to wonder what has happened and we see the painful result: Keith reappears: <strong><q>The redness in his cheeks has turned blotchy. His hands are pressed beneath his armpits</q></strong> <code>p. 146</code></li>
+</ul>
+
+<p>The menacing threat of more punishment: <strong><q>I&rsquo;ll give you until the bed-time to think about it &hellip; If it&rsquo;s not back by then you&rsquo;ll get the same again. And then again tomorrow. And so on everyday until it&rsquo;s back.</q></strong></p>
+
+<h4 id="toc_49">Dramatic irony</h4>
+
+<p>Enhances the tension and sympathy for Keith - both the reader and Keith know that Mrs Hayward is responsible for the missing thermos, we know that it&rsquo;s not Keith&rsquo;s fault so we perceive the unfairness and pity Keith for this. </p>
+
+<h1 id="toc_50">Chapter 9</h1>
+
+<h2 id="toc_51">Main events</h2>
+
+<ul>
+<li>Mrs Hayward approaches Stephen to ask a favor - could he take the basket to the &lsquo;tramp.&rsquo;</li>
+<li>After some discussion, Stephen agrees.</li>
+<li>Mrs Hayward is desperate, even crying in front of Stephen</li>
+<li>Barbara Birrel joins Stephen and they smoke a cigarette and kiss</li>
+<li>Barbara and Stephen open the picnic basket and as they do, Mr Hayward appears and asks Stephen to come and have a chat</li>
+<li>Stephen follows Mr Hayward who tells him not to be involved in any games. Mr Hayward asks for the basket and as they are speaking, Mrs Hayward comes to talk to her husband, not realizing Stephen is there with the basket.</li>
+<li>Stephen returns to Barbara Birrell, without the basket, not wanting to think what is going inside the Hayward house.</li>
+<li>Stephen returns home to his parents feeling uneasy and confused.</li>
+</ul>
+
+<h2 id="toc_52">Class mini-presentation</h2>
+
+<h3 id="toc_53">Activity 1: The basket - Stephen&rsquo;s dilemma (pages 177 -181)</h3>
+
+<p>Why does Stephen change his mind and take the basket? </p>
+
+<ul>
+<li>out of guilt
+
+<ul>
+<li><strong><q>I&rsquo;ve set Keith&rsquo;s mother and father against each other, I&rsquo;ve set Keith&rsquo;s mother and Auntie Dee against each other. I&rsquo;ve ruined everything.</q></strong> <code>p.179</code></li>
+<li><strong><q>I realize that the very things that seemed so simple and straightforward then are not simple and straightforward at all, but infinitely complex and painful.</q></strong> <code>p.179</code></li>
+</ul></li>
+<li>link between childhood and adulthood
+
+<ul>
+<li>Mrs Hayward asks Stephen as if they are of the same age, and even cries and begs him</li>
+</ul></li>
+<li>Or is she manipulating him?</li>
+<li>Change in Mrs Hayward and the Hayward family - did Stephen change, or did they change?</li>
+</ul>
+
+<h3 id="toc_54">Activity 2: Barbara and the basket - reading pages 181-187</h3>
+
+<ul>
+<li><p>plot</p>
+
+<ul>
+<li><p>Stephen and Barbara decides whether to open the basket<br>
+<strong><q>How have we got back to all this stupid did/didn&rsquo;t, now we&rsquo;ve left childish things behind?</q></strong> <code>p.182</code></p></li>
+<li><p>=&gt; development of character - growing up</p></li>
+<li><p>ironic? (adult = kissing and smoking)</p></li>
+<li><p><strong>I&rsquo;ve become a child again.</strong> <code>p. 192</code></p></li>
+<li><p><strong>That all belongs to a past I&rsquo;ve long since left behind. Haven&rsquo;t I?</strong> <code>p. 194</code></p></li>
+<li><p>=&gt; wandering between childhood and adulthood</p></li>
+</ul></li>
+</ul>
+
+<p>hideout: going alone, even with Barbara ≠ with Keith before<br>
+identity: away from Keith, stands up for himself (<strong>&lsquo;we&rsquo;</strong> vs <strong>&lsquo;I&rsquo;</strong>)</p>
+
+<h3 id="toc_55">Activity 3: &lsquo;Can I have a word with you, old chap?&rsquo; - reading pages 186-190</h3>
+
+<p>confrontation against Mr Hayward</p>
+
+<ul>
+<li>comes to the realization that adults are humans after all.<br>
+<strong><q>It comes to me that he finds this conversation as difficult as I do, and for a moment I glimpse a more general and more surprising truth - that adults are not after all members of some completely different species from myself</q>.</strong> <code>p. 188</code></li>
+<li><strong><q>This is the bravest and most shocking thing I&rsquo;ve done in my entire life</q></strong> <code>p. 188</code><br>
+<em>vs.</em><br>
+<strong><q>This is the weakest and most cowardly thing I&rsquo;ve done in my life</q></strong> <code>p. 189</code><br>
+=&gt; opposition</li>
+</ul>
+
+<h2 id="toc_56">Final Lesson</h2>
+
+<h3 id="toc_57">Personal response</h3>
+
+<p>Read and respond to the following: </p>
+
+<blockquote>
+<p><q>A novel of uncertainty, of half knowing and half refusing to know, or half belonging, of things being quite and not quite.</q></p>
+</blockquote>
+
+<p>Now write your own statement which captures the novel for you.</p>
+
+<p>OR</p>
+
+<p>Write a personal response focusing on anything you felt interesting, significant, confusing or irritating in <u>Spies</u>. </p>
+
+<p>A new daunting adult world progressively unravelled by a boy slowly marching out from his collapsing childhood. </p>
+
+<h3 id="toc_58">Themes <code>p. 64</code></h3>
+
+<h4 id="toc_59">Friendship</h4>
+
+<p>Stephen - Keith, Stephen - Barbara: unequal friendship<br>
+=&gt; how Stephen grows and changes: moving from Keith to Barbara, adult world</p>
+
+<h4 id="toc_60">Belonging</h4>
+
+<ul>
+<li>Stephen <q>belongs</q> to Keith<br></li>
+<li>does not belong to England
+<em><q>My life in England had somehow never really taken off</q></em> <code>p. 229</code></li>
+</ul>
+
+<h4 id="toc_61">Memory</h4>
+
+<ul>
+<li>shift between young and old Stephen (and connection between them)</li>
+<li>complexity of memory -&gt; unreliable narrator (ex. scent of privet: enigma)</li>
+</ul>
+
+<h4 id="toc_62">Power</h4>
+
+<ul>
+<li>abuse of power:
+
+<ul>
+<li>Keith - Stephen</li>
+<li>Keith&rsquo;s father - Keith</li>
+</ul></li>
+<li>Stephen evolved from the led to the leader</li>
+</ul>
+
+<h4 id="toc_63">Childhood</h4>
+
+<ul>
+<li>related: <strong>innocence and experience</strong></li>
+<li>plot: old Stephen goes back to England to recollect his childhood memory </li>
+<li>childhood -&gt; adolescence, the readers feel like they&rsquo;re growing up with Stephen</li>
+<li>spies: child&rsquo;s play -&gt; real world of growing up</li>
+</ul>
+
+<h4 id="toc_64">Bullying</h4>
+
+<ul>
+<li>omnipresent throughout the book
+
+<ul>
+<li>Stephen bullied in school</li>
+<li>Stephen bullied in his relationship w/ Keith</li>
+<li>in Keith&rsquo;s family: Mr Hayward -&gt; Mrs Hayward + Keith</li>
+<li>Keith + Stephen bullies the old tramp</li>
+</ul></li>
+<li>related: <strong>power</strong></li>
+<li>reflects the evolution of Stephen: no power -&gt; power + abuse</li>
+</ul>
+
+<h3 id="toc_65">Motifs in the novel</h3>
+
+<ul>
+<li>Photograph</li>
+<li>Scarf</li>
+<li>Bayonet</li>
+<li>Privet</li>
+<li>Slime</li>
+<li>Germs</li>
+<li>Cigarettes</li>
+<li>Lamorna</li>
+</ul>
+
+<p>What do these stand for in the novel? What associations / values do they have?<br>
+How are they important to the structure of novel?</p>
+
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>

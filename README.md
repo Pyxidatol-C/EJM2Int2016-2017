@@ -1,6 +1,8 @@
 # EJM2Int2016-2017
 ## Link
-[>https://jingjieyang.github.io/EJM2Int2016-2017/<](https://jingjieyang.github.io/EJM2Int2016-2017/)
+- **obsolete**: ~~[https://jingjieyang.github.io/EJM2Int2016-2017/](https://jingjieyang.github.io/EJM2Int2016-2017/)~~
+- [https://ejm-classes.herokuapp.com/](https://ejm-classes.herokuapp.com/)
+
 ## What is this?
 
 I like to keep an eletronic version of my class notes, along with the files the teachers have distributed.  

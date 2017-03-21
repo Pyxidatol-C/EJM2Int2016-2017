@@ -1,4 +1,7 @@
-<h1 style="color:red">Spies</h1>
+<h1 style="color:LightYellow;font-family:Luminari-Regular;font-size:32pt;background-color:Lightgreen;text-align:center">
+	Spies
+</h1>
+
 ## Chapter 1
 ### Group 1 - The narrator
 > Is this a first or third person narrative? Does the narrator seem to be a character in the story? What do we find out about the narrator? What kind of voice does he have? Does he speak in the same tense throughout? Is it a voice of certainty? Is he a reliable narrator, one whose viewpoint you feel you can trust? Is he an all-knowing narrator, who stands above the action? Does it vary at all? 
@@ -171,8 +174,8 @@ however, young Stephen does not notice this.
 - Shows the divide between Keith's parents
 - Shows Uncle Peter as a playful character in the middle of the sisters
 - Gives small glimpses into the past lives and information on their contrasting characters
-- Gives an impression that these photos are spying back at him, echoing the fact that the boys are spying on Mrs Haywood
-- Mr Haywood, never actually mentioned in the photos:
+- Gives an impression that these photos are spying back at him, echoing the fact that the boys are spying on Mrs Hayward
+- Mr Hayward, never actually mentioned in the photos:
 
 	> "Lifeless clipped grey hair and ironic smile" `p. 47`
 	
@@ -388,7 +391,7 @@ This chapter explores the theme of bullying and abuse of power from a number of 
 - Stephen feels superior for the first time and takes advantage of this
 - Stephen's behavior - hostile, violent, aggressive - WHY? YOUR THOUGHTS? p. 131
 - Keith and Stephen, p.122, 123
-- Mr and Mrs Haywood, p. 132, 133
+- Mr and Mrs Hayward, p. 132, 133
 
 # English Homework - language
 
@@ -408,3 +411,163 @@ Treat this task as a textual analysis.
 		+ part 1
 		+ part 2
 		+ part 3
+
+## Chapter 7-8
+### Summary Points Chapter 7
+- old Stephen - reflecting on events of chapter 6
+- Looking at the young boy who currently lives at the Close
+- Starts to doubt to suspicions
+	- is starting to grow up
+- S hopes that things will return normal
+- Tramp - German spy
+- Thermos - caning incident
+- Stephen goes to find the mother
+- **perspective**
+
+3 important ideas:
+
+- Stephen increasingly isolated
+- A shift from childhood game to sinister reality
+- A shift in focus from Stephen and Keith to Stephen and Mrs Hayward
+
+### Analysis
+Pages 137-141
+
+- The chapter begins by the narration of old Stephen. From page 142, returns to young Stephen 1st person, present tense. EFFECT
+- Why does Frayn move back and forth between the older narrator watching the boy in the house and Stephen's feelings and thoughts? EFFECT
+	- reflects on his past actions and create a more pertinent impression in the readers' mind
+- What ideas does Frayn raise in this first section? EFFECT
+
+### Stephen
+- There is no turning back, the 'game' has become very real
+- **"That he had betrayed ... the same deep unease."** `p. 139`
+**- "What he wanted ... both their head."** `p. 141`
+- **"Yes, everything's back to as it was."** `p. 142`
+- **"Everything's back to normal ...".** `p.143` -> irony
+
+### Keith
+- **caning incident** = insight into what really goes on inside the Hayward's house + new insight into Keith's character and behavior
+- Stephen's idealization of the Hayward's = far from the truth
+
+#### Changing perspectives of Keith: pp. 144-148
+- He is *defenseless* against father - a striking contrast with the leading role he takes with Stephen
+- Even though Keith is telling the truth, his father won't believe him: **"Don't be a blithering idiot."** `p. 145`
+- We become aware that physical abuse is a regular occurrence **"You know what you're going to get, Old Bean."** `p. 145`
+- We don't hear anything from the house, Stephen doesn't witness the caning. We are left to wonder what has happened and we see the painful result: Keith reappears: **"The redness in his cheeks has turned blotchy. His hands are pressed beneath his armpits"** `p. 146`
+
+The menacing threat of more punishment: **"I'll give you until the bed-time to think about it ... If it's not back by then you'll get the same again. And then again tomorrow. And so on everyday until it's back."**
+
+#### Dramatic irony
+Enhances the tension and sympathy for Keith - both the reader and Keith know that Mrs Hayward is responsible for the missing thermos, we know that it's not Keith's fault so we perceive the unfairness and pity Keith for this. 
+
+# Chapter 9
+## Main events
+- Mrs Hayward approaches Stephen to ask a favor - could he take the basket to the 'tramp.'
+- After some discussion, Stephen agrees.
+- Mrs Hayward is desperate, even crying in front of Stephen
+- Barbara Birrel joins Stephen and they smoke a cigarette and kiss
+- Barbara and Stephen open the picnic basket and as they do, Mr Hayward appears and asks Stephen to come and have a chat
+- Stephen follows Mr Hayward who tells him not to be involved in any games. Mr Hayward asks for the basket and as they are speaking, Mrs Hayward comes to talk to her husband, not realizing Stephen is there with the basket.
+- Stephen returns to Barbara Birrell, without the basket, not wanting to think what is going inside the Hayward house.
+- Stephen returns home to his parents feeling uneasy and confused.
+
+## Class mini-presentation
+### Activity 1: The basket - Stephen's dilemma (pages 177 -181)
+
+Why does Stephen change his mind and take the basket? 
+
+- out of guilt
+	- **"I've set Keith's mother and father against each other, I've set Keith's mother and Auntie Dee against each other. I've ruined everything."** `p.179`
+	- **"I realize that the very things that seemed so simple and straightforward then are not simple and straightforward at all, but infinitely complex and painful."** `p.179`
+- link between childhood and adulthood
+	- Mrs Hayward asks Stephen as if they are of the same age, and even cries and begs him
+- Or is she manipulating him?
+- Change in Mrs Hayward and the Hayward family - did Stephen change, or did they change?
+
+
+### Activity 2: Barbara and the basket - reading pages 181-187
+- plot
+	- Stephen and Barbara decides whether to open the basket  
+	**"How have we got back to all this stupid did/didn't, now we've left childish things behind?"** `p.182`
+
+	- => development of character - growing up
+	- ironic? (adult = kissing and smoking)
+	- **I've become a child again.** `p. 192`
+	- **That all belongs to a past I've long since left behind. Haven't I?** `p. 194`
+	- => wandering between childhood and adulthood
+
+
+hideout: going alone, even with Barbara ≠ with Keith before  
+identity: away from Keith, stands up for himself (**'we'** vs **'I'**)
+
+### Activity 3: 'Can I have a word with you, old chap?' - reading pages 186-190
+
+confrontation against Mr Hayward
+
+- comes to the realization that adults are humans after all.  
+**"It comes to me that he finds this conversation as difficult as I do, and for a moment I glimpse a more general and more surprising truth - that adults are not after all members of some completely different species from myself".** `p. 188`
+- **"This is the bravest and most shocking thing I've done in my entire life"** `p. 188`  
+*vs.*  
+**"This is the weakest and most cowardly thing I've done in my life"** `p. 189`  
+=> opposition
+
+## Final Lesson
+### Personal response
+Read and respond to the following: 
+> "A novel of uncertainty, of half knowing and half refusing to know, or half belonging, of things being quite and not quite."
+
+Now write your own statement which captures the novel for you.
+
+OR
+
+Write a personal response focusing on anything you felt interesting, significant, confusing or irritating in _Spies_. 
+
+A new daunting adult world progressively unravelled by a boy slowly marching out from his collapsing childhood. 
+
+### Themes `p. 64`
+#### Friendship
+Stephen - Keith, Stephen - Barbara: unequal friendship  
+=> how Stephen grows and changes: moving from Keith to Barbara, adult world
+
+#### Belonging
+- Stephen "belongs" to Keith  
+- does not belong to England
+*"My life in England had somehow never really taken off"* `p. 229`
+
+#### Memory
+- shift between young and old Stephen (and connection between them)
+- complexity of memory -> unreliable narrator (ex. scent of privet: enigma)
+
+#### Power
+- abuse of power:
+	- Keith - Stephen
+	- Keith's father - Keith
+- Stephen evolved from the led to the leader
+
+#### Childhood
+- related: **innocence and experience**
+- plot: old Stephen goes back to England to recollect his childhood memory 
+- childhood -> adolescence, the readers feel like they're growing up with Stephen
+- spies: child's play -> real world of growing up
+
+#### Bullying
+- omnipresent throughout the book
+	- Stephen bullied in school
+	- Stephen bullied in his relationship w/ Keith
+	- in Keith's family: Mr Hayward -> Mrs Hayward + Keith
+	- Keith + Stephen bullies the old tramp
+- related: **power**
+- reflects the evolution of Stephen: no power -> power + abuse
+
+### Motifs in the novel
+- Photograph
+- Scarf
+- Bayonet
+- Privet
+- Slime
+- Germs
+- Cigarettes
+- Lamorna
+
+What do these stand for in the novel? What associations / values do they have?  
+How are they important to the structure of novel?
